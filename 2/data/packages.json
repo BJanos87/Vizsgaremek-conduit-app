@@ -1,0 +1,854 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "test_src.Tests",
+    "children" : [ {
+      "name" : "test01_registration",
+      "children" : [ {
+        "name" : "test_TC01",
+        "children" : [ {
+          "name" : "test_homepage[chrome]",
+          "uid" : "4fc8e2e011954980",
+          "parentUid" : "42e9e4808f993b956daae0746d688c29",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629064627792,
+            "stop" : 1629064629738,
+            "duration" : 1946
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        }, {
+          "name" : "test_check_signup_form[chrome]",
+          "uid" : "61f5bee415ca5ba6",
+          "parentUid" : "42e9e4808f993b956daae0746d688c29",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629064629741,
+            "stop" : 1629064629879,
+            "duration" : 138
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        }, {
+          "name" : "test_fill_signup_form_valid[chrome]",
+          "uid" : "2b1c1f0a7fdb54",
+          "parentUid" : "42e9e4808f993b956daae0746d688c29",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629064629881,
+            "stop" : 1629064632346,
+            "duration" : 2465
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        }, {
+          "name" : "test_sign_in_new_user[chrome]",
+          "uid" : "a0677f66ab28b38f",
+          "parentUid" : "42e9e4808f993b956daae0746d688c29",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629064632349,
+            "stop" : 1629064634990,
+            "duration" : 2641
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        }, {
+          "name" : "test_logout_successful[chrome]",
+          "uid" : "fa61a66716bb2a5a",
+          "parentUid" : "42e9e4808f993b956daae0746d688c29",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629064634992,
+            "stop" : 1629064635218,
+            "duration" : 226
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        } ],
+        "uid" : "42e9e4808f993b956daae0746d688c29"
+      }, {
+        "name" : "test_TC02",
+        "children" : [ {
+          "name" : "test_homepage[chrome]",
+          "uid" : "3c35b626cb0d3ad3",
+          "parentUid" : "be74a277afba0385363b9c5967a5d3d2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629064636530,
+            "stop" : 1629064638013,
+            "duration" : 1483
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        }, {
+          "name" : "test_check_signup_form[chrome]",
+          "uid" : "5f1d34f624256b06",
+          "parentUid" : "be74a277afba0385363b9c5967a5d3d2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629064638017,
+            "stop" : 1629064638155,
+            "duration" : 138
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        }, {
+          "name" : "test_fill_signup_form_invalid_email[chrome]",
+          "uid" : "6adb6e5406750b90",
+          "parentUid" : "be74a277afba0385363b9c5967a5d3d2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629064638157,
+            "stop" : 1629064639589,
+            "duration" : 1432
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        }, {
+          "name" : "test_fill_signup_form_invalid_password[chrome]",
+          "uid" : "21be3ac5af52baaf",
+          "parentUid" : "be74a277afba0385363b9c5967a5d3d2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629064639592,
+            "stop" : 1629064640993,
+            "duration" : 1401
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        }, {
+          "name" : "test_fill_signup_form_invalid_username[chrome]",
+          "uid" : "eb853ca86b594291",
+          "parentUid" : "be74a277afba0385363b9c5967a5d3d2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629064640995,
+            "stop" : 1629064642361,
+            "duration" : 1366
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        }, {
+          "name" : "test_fill_signup_form_existing_email[chrome]",
+          "uid" : "576a4aa91c2215e3",
+          "parentUid" : "be74a277afba0385363b9c5967a5d3d2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629064642364,
+            "stop" : 1629064643754,
+            "duration" : 1390
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        }, {
+          "name" : "test_navigate_home[chrome]",
+          "uid" : "6c6d6b53faa301ee",
+          "parentUid" : "be74a277afba0385363b9c5967a5d3d2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629064643756,
+            "stop" : 1629064643882,
+            "duration" : 126
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        }, {
+          "name" : "test_homepage_is_displayed[chrome]",
+          "uid" : "6710c9fc93d86cda",
+          "parentUid" : "be74a277afba0385363b9c5967a5d3d2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629064643884,
+            "stop" : 1629064644129,
+            "duration" : 245
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        } ],
+        "uid" : "be74a277afba0385363b9c5967a5d3d2"
+      } ],
+      "uid" : "6081d7eda63e18c306c67ddb7732d918"
+    }, {
+      "name" : "test02_login",
+      "children" : [ {
+        "name" : "test_TC03",
+        "children" : [ {
+          "name" : "test_homepage[chrome]",
+          "uid" : "9015f8da01005603",
+          "parentUid" : "84bc4876c86f3f2862c67b0daaf732e4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629064645434,
+            "stop" : 1629064646916,
+            "duration" : 1482
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        }, {
+          "name" : "test_check_login_form[chrome]",
+          "uid" : "d68686dbb4b5df78",
+          "parentUid" : "84bc4876c86f3f2862c67b0daaf732e4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629064646919,
+            "stop" : 1629064647010,
+            "duration" : 91
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        }, {
+          "name" : "test_login_exist_user[chrome]",
+          "uid" : "5a40cb76e8b93ac0",
+          "parentUid" : "84bc4876c86f3f2862c67b0daaf732e4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629064647012,
+            "stop" : 1629064648274,
+            "duration" : 1262
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        }, {
+          "name" : "test_logout_exist_user[chrome]",
+          "uid" : "19281a0f03242137",
+          "parentUid" : "84bc4876c86f3f2862c67b0daaf732e4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629064648277,
+            "stop" : 1629064649400,
+            "duration" : 1123
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        }, {
+          "name" : "test_homepage_is_displayed[chrome]",
+          "uid" : "8cdd7950a9675961",
+          "parentUid" : "84bc4876c86f3f2862c67b0daaf732e4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629064649403,
+            "stop" : 1629064649611,
+            "duration" : 208
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        } ],
+        "uid" : "84bc4876c86f3f2862c67b0daaf732e4"
+      }, {
+        "name" : "test_TC04",
+        "children" : [ {
+          "name" : "test_homepage[chrome]",
+          "uid" : "dfefe5198ce9daba",
+          "parentUid" : "d9fba2cbbd47f9a5738eb7e95130ac26",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629064650918,
+            "stop" : 1629064652401,
+            "duration" : 1483
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        }, {
+          "name" : "test_check_login_form[chrome]",
+          "uid" : "5b3636b732edc2b9",
+          "parentUid" : "d9fba2cbbd47f9a5738eb7e95130ac26",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629064652405,
+            "stop" : 1629064652498,
+            "duration" : 93
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        }, {
+          "name" : "test_login_not_exist_user[chrome]",
+          "uid" : "5fd7221cae4e7dc3",
+          "parentUid" : "d9fba2cbbd47f9a5738eb7e95130ac26",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629064652501,
+            "stop" : 1629064654002,
+            "duration" : 1501
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        }, {
+          "name" : "test_homepage_is_displayed[chrome]",
+          "uid" : "8935082ce0461c96",
+          "parentUid" : "d9fba2cbbd47f9a5738eb7e95130ac26",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629064654004,
+            "stop" : 1629064654232,
+            "duration" : 228
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        } ],
+        "uid" : "d9fba2cbbd47f9a5738eb7e95130ac26"
+      } ],
+      "uid" : "fdaf89b36e2981e465283f0c6e15b211"
+    }, {
+      "name" : "test03_home_screen.test_TC05",
+      "children" : [ {
+        "name" : "test_homepage[chrome]",
+        "uid" : "77af220b65cfb602",
+        "parentUid" : "f023c3b25c6845d1f77074e6ad103f86",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064655535,
+          "stop" : 1629064657053,
+          "duration" : 1518
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_check_login_form[chrome]",
+        "uid" : "1a834eb555c41dca",
+        "parentUid" : "f023c3b25c6845d1f77074e6ad103f86",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064657056,
+          "stop" : 1629064657174,
+          "duration" : 118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_login_exist_user[chrome]",
+        "uid" : "120cf6c848e9ba01",
+        "parentUid" : "f023c3b25c6845d1f77074e6ad103f86",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064657177,
+          "stop" : 1629064658438,
+          "duration" : 1261
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_logout_exist_user[chrome]",
+        "uid" : "8199658094548dc",
+        "parentUid" : "f023c3b25c6845d1f77074e6ad103f86",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064658441,
+          "stop" : 1629064662778,
+          "duration" : 4337
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_homepage_is_displayed[chrome]",
+        "uid" : "5c1f2330a3328829",
+        "parentUid" : "f023c3b25c6845d1f77074e6ad103f86",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064662781,
+          "stop" : 1629064663018,
+          "duration" : 237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      } ],
+      "uid" : "test03_home_screen.test_TC05"
+    }, {
+      "name" : "test04_new_article.test_TC06",
+      "children" : [ {
+        "name" : "test_homepage[chrome]",
+        "uid" : "5f7068a3ef209013",
+        "parentUid" : "376acf6c3fa1c7f3934cf65faa51c3c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064664329,
+          "stop" : 1629064665801,
+          "duration" : 1472
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_check_login_form[chrome]",
+        "uid" : "8613a433875d8da3",
+        "parentUid" : "376acf6c3fa1c7f3934cf65faa51c3c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064665804,
+          "stop" : 1629064665903,
+          "duration" : 99
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_login_exist_user[chrome]",
+        "uid" : "b9b6719b8fffcd5b",
+        "parentUid" : "376acf6c3fa1c7f3934cf65faa51c3c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064665906,
+          "stop" : 1629064667158,
+          "duration" : 1252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_navigate_to_new_article[chrome]",
+        "uid" : "6e78379f7c8c7a7f",
+        "parentUid" : "376acf6c3fa1c7f3934cf65faa51c3c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064667160,
+          "stop" : 1629064668283,
+          "duration" : 1123
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_write_new_article[chrome]",
+        "uid" : "26baf99356003b",
+        "parentUid" : "376acf6c3fa1c7f3934cf65faa51c3c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064668286,
+          "stop" : 1629064671908,
+          "duration" : 3622
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_check_new_article[chrome]",
+        "uid" : "8c1a720e4a627a55",
+        "parentUid" : "376acf6c3fa1c7f3934cf65faa51c3c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064671911,
+          "stop" : 1629064672128,
+          "duration" : 217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_homepage_is_displayed[chrome]",
+        "uid" : "21a3762affe37c56",
+        "parentUid" : "376acf6c3fa1c7f3934cf65faa51c3c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064672130,
+          "stop" : 1629064672361,
+          "duration" : 231
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      } ],
+      "uid" : "test04_new_article.test_TC06"
+    }, {
+      "name" : "test05_edit_article_from_txt_file.test_TC07",
+      "children" : [ {
+        "name" : "test_homepage[chrome]",
+        "uid" : "d80a8254181d5ab0",
+        "parentUid" : "7ef012319dfdf54937d8c1874c2b6dbf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064673670,
+          "stop" : 1629064675173,
+          "duration" : 1503
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_check_login_form[chrome]",
+        "uid" : "f4ec6aeb88cd9d3a",
+        "parentUid" : "7ef012319dfdf54937d8c1874c2b6dbf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064675176,
+          "stop" : 1629064675275,
+          "duration" : 99
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_login_exist_user[chrome]",
+        "uid" : "590cd0c92c683391",
+        "parentUid" : "7ef012319dfdf54937d8c1874c2b6dbf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064675277,
+          "stop" : 1629064676522,
+          "duration" : 1245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_navigate_to_user_page[chrome]",
+        "uid" : "2146c87817874542",
+        "parentUid" : "7ef012319dfdf54937d8c1874c2b6dbf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064676524,
+          "stop" : 1629064685784,
+          "duration" : 9260
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_open_to_edit_an_existing_article[chrome]",
+        "uid" : "46da40b1d13588c8",
+        "parentUid" : "7ef012319dfdf54937d8c1874c2b6dbf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064685787,
+          "stop" : 1629064689986,
+          "duration" : 4199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_edit_an_existing_article[chrome]",
+        "uid" : "d13b0856f9a67714",
+        "parentUid" : "7ef012319dfdf54937d8c1874c2b6dbf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064689989,
+          "stop" : 1629064704988,
+          "duration" : 14999
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_check_new_article[chrome]",
+        "uid" : "b94033c3558b2e24",
+        "parentUid" : "7ef012319dfdf54937d8c1874c2b6dbf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064704990,
+          "stop" : 1629064705167,
+          "duration" : 177
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_homepage_is_displayed[chrome]",
+        "uid" : "bd3dd4fc3eb11c6d",
+        "parentUid" : "7ef012319dfdf54937d8c1874c2b6dbf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064705169,
+          "stop" : 1629064705412,
+          "duration" : 243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      } ],
+      "uid" : "test05_edit_article_from_txt_file.test_TC07"
+    }, {
+      "name" : "test06_delete_article.test_TC08",
+      "children" : [ {
+        "name" : "test_homepage[chrome]",
+        "uid" : "58f43c6e05cf4a5e",
+        "parentUid" : "c1906f5254b543482360ea333e7e1411",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064705729,
+          "stop" : 1629064707246,
+          "duration" : 1517
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_check_login_form[chrome]",
+        "uid" : "30154c22eb290be",
+        "parentUid" : "c1906f5254b543482360ea333e7e1411",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064707250,
+          "stop" : 1629064707340,
+          "duration" : 90
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_login_exist_user[chrome]",
+        "uid" : "9613101683fccd51",
+        "parentUid" : "c1906f5254b543482360ea333e7e1411",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064707342,
+          "stop" : 1629064710585,
+          "duration" : 3243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_count_before_delete[chrome]",
+        "uid" : "3be4502fc43cb386",
+        "parentUid" : "c1906f5254b543482360ea333e7e1411",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064710587,
+          "stop" : 1629064723124,
+          "duration" : 12537
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_delete_an_existing_article[chrome]",
+        "uid" : "b707262f39431c0a",
+        "parentUid" : "c1906f5254b543482360ea333e7e1411",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064723126,
+          "stop" : 1629064727300,
+          "duration" : 4174
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_edit_an_existing_article[chrome]",
+        "uid" : "38a552a66ff1e7ba",
+        "parentUid" : "c1906f5254b543482360ea333e7e1411",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629064727302,
+          "stop" : 1629064730642,
+          "duration" : 3340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_homepage_is_displayed[chrome]",
+        "uid" : "b69e5ccace12e558",
+        "parentUid" : "c1906f5254b543482360ea333e7e1411",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064730691,
+          "stop" : 1629064731008,
+          "duration" : 317
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      } ],
+      "uid" : "test06_delete_article.test_TC08"
+    }, {
+      "name" : "test07_scroll_list.test_TC09",
+      "children" : [ {
+        "name" : "test_homepage[chrome]",
+        "uid" : "5a53a9a893db1813",
+        "parentUid" : "2d3a443b58b79381f61bc17da5f2fd9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064732320,
+          "stop" : 1629064733808,
+          "duration" : 1488
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_check_login_form[chrome]",
+        "uid" : "65152b73bb2fcc64",
+        "parentUid" : "2d3a443b58b79381f61bc17da5f2fd9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064733811,
+          "stop" : 1629064733910,
+          "duration" : 99
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_login_exist_user[chrome]",
+        "uid" : "ff54a99a70b1e8ca",
+        "parentUid" : "2d3a443b58b79381f61bc17da5f2fd9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064733913,
+          "stop" : 1629064737169,
+          "duration" : 3256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_check_scroll_in_the_list[chrome]",
+        "uid" : "c0ca3aea0482f43d",
+        "parentUid" : "2d3a443b58b79381f61bc17da5f2fd9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064737171,
+          "stop" : 1629064741632,
+          "duration" : 4461
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_homepage_is_displayed[chrome]",
+        "uid" : "b50c2d6c33135ba4",
+        "parentUid" : "2d3a443b58b79381f61bc17da5f2fd9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064741634,
+          "stop" : 1629064741857,
+          "duration" : 223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      } ],
+      "uid" : "test07_scroll_list.test_TC09"
+    }, {
+      "name" : "test08_save_data_to_txt_file.test_TC10",
+      "children" : [ {
+        "name" : "test_homepage[chrome]",
+        "uid" : "51fae24dc36b4530",
+        "parentUid" : "5c35b7e864a8980d007c47a010569771",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064743149,
+          "stop" : 1629064744635,
+          "duration" : 1486
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_check_login_form[chrome]",
+        "uid" : "3b5e66ab4270273a",
+        "parentUid" : "5c35b7e864a8980d007c47a010569771",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064744638,
+          "stop" : 1629064744733,
+          "duration" : 95
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_login_exist_user[chrome]",
+        "uid" : "cf53926dab2840b0",
+        "parentUid" : "5c35b7e864a8980d007c47a010569771",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064744735,
+          "stop" : 1629064747996,
+          "duration" : 3261
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_check_write_list_into_text_file[chrome]",
+        "uid" : "9b58687d6f70b67b",
+        "parentUid" : "5c35b7e864a8980d007c47a010569771",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064747998,
+          "stop" : 1629064749543,
+          "duration" : 1545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_homepage_is_displayed[chrome]",
+        "uid" : "a8b8ec00b4b1fcdd",
+        "parentUid" : "5c35b7e864a8980d007c47a010569771",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064749545,
+          "stop" : 1629064749762,
+          "duration" : 217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      } ],
+      "uid" : "test08_save_data_to_txt_file.test_TC10"
+    }, {
+      "name" : "test09_cookie_check.test_TC11",
+      "children" : [ {
+        "name" : "test_homepage_cookie[chrome]",
+        "uid" : "9882d799aa835341",
+        "parentUid" : "ba081bd2b1411d449da609301ece27bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064751070,
+          "stop" : 1629064755754,
+          "duration" : 4684
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_homepage_is_displayed[chrome]",
+        "uid" : "469deff8dcc71b57",
+        "parentUid" : "ba081bd2b1411d449da609301ece27bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629064755757,
+          "stop" : 1629064755895,
+          "duration" : 138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      } ],
+      "uid" : "test09_cookie_check.test_TC11"
+    } ],
+    "uid" : "test_src.Tests"
+  } ],
+  "name" : "packages"
+}
