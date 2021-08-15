@@ -1,610 +1,610 @@
 [ {
-  "uid" : "8613a433875d8da3",
-  "name" : "test_check_login_form[chrome]",
+  "uid" : "1a7e277b2aeb0847",
+  "name" : "test_fill_signup_form_invalid_username[chrome]",
   "time" : {
-    "start" : 1629064665804,
-    "stop" : 1629064665903,
-    "duration" : 99
+    "start" : 1629065208673,
+    "stop" : 1629065210048,
+    "duration" : 1375
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b50c2d6c33135ba4",
+  "uid" : "e27af5158ba19206",
   "name" : "test_homepage_is_displayed[chrome]",
   "time" : {
-    "start" : 1629064741634,
-    "stop" : 1629064741857,
-    "duration" : 223
+    "start" : 1629065273022,
+    "stop" : 1629065273254,
+    "duration" : 232
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5c1f2330a3328829",
-  "name" : "test_homepage_is_displayed[chrome]",
-  "time" : {
-    "start" : 1629064662781,
-    "stop" : 1629064663018,
-    "duration" : 237
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "58f43c6e05cf4a5e",
+  "uid" : "6755cf846ac9907e",
   "name" : "test_homepage[chrome]",
   "time" : {
-    "start" : 1629064705729,
-    "stop" : 1629064707246,
-    "duration" : 1517
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5b3636b732edc2b9",
-  "name" : "test_check_login_form[chrome]",
-  "time" : {
-    "start" : 1629064652405,
-    "stop" : 1629064652498,
-    "duration" : 93
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "61f5bee415ca5ba6",
-  "name" : "test_check_signup_form[chrome]",
-  "time" : {
-    "start" : 1629064629741,
-    "stop" : 1629064629879,
-    "duration" : 138
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2b1c1f0a7fdb54",
-  "name" : "test_fill_signup_form_valid[chrome]",
-  "time" : {
-    "start" : 1629064629881,
-    "stop" : 1629064632346,
-    "duration" : 2465
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8cdd7950a9675961",
-  "name" : "test_homepage_is_displayed[chrome]",
-  "time" : {
-    "start" : 1629064649403,
-    "stop" : 1629064649611,
-    "duration" : 208
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "65152b73bb2fcc64",
-  "name" : "test_check_login_form[chrome]",
-  "time" : {
-    "start" : 1629064733811,
-    "stop" : 1629064733910,
-    "duration" : 99
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d68686dbb4b5df78",
-  "name" : "test_check_login_form[chrome]",
-  "time" : {
-    "start" : 1629064646919,
-    "stop" : 1629064647010,
-    "duration" : 91
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "590cd0c92c683391",
-  "name" : "test_login_exist_user[chrome]",
-  "time" : {
-    "start" : 1629064675277,
-    "stop" : 1629064676522,
-    "duration" : 1245
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5a40cb76e8b93ac0",
-  "name" : "test_login_exist_user[chrome]",
-  "time" : {
-    "start" : 1629064647012,
-    "stop" : 1629064648274,
-    "duration" : 1262
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6e78379f7c8c7a7f",
-  "name" : "test_navigate_to_new_article[chrome]",
-  "time" : {
-    "start" : 1629064667160,
-    "stop" : 1629064668283,
-    "duration" : 1123
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5a53a9a893db1813",
-  "name" : "test_homepage[chrome]",
-  "time" : {
-    "start" : 1629064732320,
-    "stop" : 1629064733808,
-    "duration" : 1488
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b94033c3558b2e24",
-  "name" : "test_check_new_article[chrome]",
-  "time" : {
-    "start" : 1629064704990,
-    "stop" : 1629064705167,
-    "duration" : 177
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9882d799aa835341",
-  "name" : "test_homepage_cookie[chrome]",
-  "time" : {
-    "start" : 1629064751070,
-    "stop" : 1629064755754,
-    "duration" : 4684
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a0677f66ab28b38f",
-  "name" : "test_sign_in_new_user[chrome]",
-  "time" : {
-    "start" : 1629064632349,
-    "stop" : 1629064634990,
-    "duration" : 2641
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6710c9fc93d86cda",
-  "name" : "test_homepage_is_displayed[chrome]",
-  "time" : {
-    "start" : 1629064643884,
-    "stop" : 1629064644129,
-    "duration" : 245
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2146c87817874542",
-  "name" : "test_navigate_to_user_page[chrome]",
-  "time" : {
-    "start" : 1629064676524,
-    "stop" : 1629064685784,
-    "duration" : 9260
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "469deff8dcc71b57",
-  "name" : "test_homepage_is_displayed[chrome]",
-  "time" : {
-    "start" : 1629064755757,
-    "stop" : 1629064755895,
-    "duration" : 138
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f4ec6aeb88cd9d3a",
-  "name" : "test_check_login_form[chrome]",
-  "time" : {
-    "start" : 1629064675176,
-    "stop" : 1629064675275,
-    "duration" : 99
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8c1a720e4a627a55",
-  "name" : "test_check_new_article[chrome]",
-  "time" : {
-    "start" : 1629064671911,
-    "stop" : 1629064672128,
-    "duration" : 217
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c0ca3aea0482f43d",
-  "name" : "test_check_scroll_in_the_list[chrome]",
-  "time" : {
-    "start" : 1629064737171,
-    "stop" : 1629064741632,
-    "duration" : 4461
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ff54a99a70b1e8ca",
-  "name" : "test_login_exist_user[chrome]",
-  "time" : {
-    "start" : 1629064733913,
-    "stop" : 1629064737169,
-    "duration" : 3256
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dfefe5198ce9daba",
-  "name" : "test_homepage[chrome]",
-  "time" : {
-    "start" : 1629064650918,
-    "stop" : 1629064652401,
-    "duration" : 1483
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3c35b626cb0d3ad3",
-  "name" : "test_homepage[chrome]",
-  "time" : {
-    "start" : 1629064636530,
-    "stop" : 1629064638013,
-    "duration" : 1483
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b707262f39431c0a",
-  "name" : "test_delete_an_existing_article[chrome]",
-  "time" : {
-    "start" : 1629064723126,
-    "stop" : 1629064727300,
-    "duration" : 4174
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "38a552a66ff1e7ba",
-  "name" : "test_edit_an_existing_article[chrome]",
-  "time" : {
-    "start" : 1629064727302,
-    "stop" : 1629064730642,
-    "duration" : 3340
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "9015f8da01005603",
-  "name" : "test_homepage[chrome]",
-  "time" : {
-    "start" : 1629064645434,
-    "stop" : 1629064646916,
-    "duration" : 1482
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fa61a66716bb2a5a",
-  "name" : "test_logout_successful[chrome]",
-  "time" : {
-    "start" : 1629064634992,
-    "stop" : 1629064635218,
-    "duration" : 226
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "21be3ac5af52baaf",
-  "name" : "test_fill_signup_form_invalid_password[chrome]",
-  "time" : {
-    "start" : 1629064639592,
-    "stop" : 1629064640993,
-    "duration" : 1401
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d80a8254181d5ab0",
-  "name" : "test_homepage[chrome]",
-  "time" : {
-    "start" : 1629064673670,
-    "stop" : 1629064675173,
+    "start" : 1629065274578,
+    "stop" : 1629065276081,
     "duration" : 1503
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1a834eb555c41dca",
-  "name" : "test_check_login_form[chrome]",
+  "uid" : "ecf4dcbb742e094e",
+  "name" : "test_check_scroll_in_the_list[chrome]",
   "time" : {
-    "start" : 1629064657056,
-    "stop" : 1629064657174,
-    "duration" : 118
+    "start" : 1629065305957,
+    "stop" : 1629065309421,
+    "duration" : 3464
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "eea0af956b382996",
+  "name" : "test_homepage_is_displayed[chrome]",
+  "time" : {
+    "start" : 1629065211566,
+    "stop" : 1629065211796,
+    "duration" : 230
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8935082ce0461c96",
+  "uid" : "30f09f3f02c0976a",
   "name" : "test_homepage_is_displayed[chrome]",
   "time" : {
-    "start" : 1629064654004,
-    "stop" : 1629064654232,
+    "start" : 1629065221767,
+    "stop" : 1629065221992,
+    "duration" : 225
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b0bd3999b7963b8e",
+  "name" : "test_homepage[chrome]",
+  "time" : {
+    "start" : 1629065223304,
+    "stop" : 1629065224799,
+    "duration" : 1495
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a796afa9defd475",
+  "name" : "test_login_exist_user[chrome]",
+  "time" : {
+    "start" : 1629065243052,
+    "stop" : 1629065244312,
+    "duration" : 1260
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7236afe855582ea8",
+  "name" : "test_open_to_edit_an_existing_article[chrome]",
+  "time" : {
+    "start" : 1629065253596,
+    "stop" : 1629065257809,
+    "duration" : 4213
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3d9b12e108258f7",
+  "name" : "test_check_login_form[chrome]",
+  "time" : {
+    "start" : 1629065233563,
+    "stop" : 1629065233669,
+    "duration" : 106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4987c386e0ea9a54",
+  "name" : "test_check_write_list_into_text_file[chrome]",
+  "time" : {
+    "start" : 1629065315923,
+    "stop" : 1629065317503,
+    "duration" : 1580
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57d5fe2393cdbd46",
+  "name" : "test_edit_an_existing_article[chrome]",
+  "time" : {
+    "start" : 1629065257812,
+    "stop" : 1629065272838,
+    "duration" : 15026
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "631e08b63e3c66da",
+  "name" : "test_check_login_form[chrome]",
+  "time" : {
+    "start" : 1629065312557,
+    "stop" : 1629065312656,
+    "duration" : 99
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbfa7068cc79a5da",
+  "name" : "test_sign_in_new_user[chrome]",
+  "time" : {
+    "start" : 1629065199702,
+    "stop" : 1629065202711,
+    "duration" : 3009
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "917777259cc6c4ca",
+  "name" : "test_check_login_form[chrome]",
+  "time" : {
+    "start" : 1629065220135,
+    "stop" : 1629065220235,
+    "duration" : 100
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc4d3f7132ed52d9",
+  "name" : "test_fill_signup_form_invalid_email[chrome]",
+  "time" : {
+    "start" : 1629065205858,
+    "stop" : 1629065207301,
+    "duration" : 1443
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f07a06773a6a98db",
+  "name" : "test_check_new_article[chrome]",
+  "time" : {
+    "start" : 1629065239680,
+    "stop" : 1629065239908,
     "duration" : 228
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "26baf99356003b",
-  "name" : "test_write_new_article[chrome]",
-  "time" : {
-    "start" : 1629064668286,
-    "stop" : 1629064671908,
-    "duration" : 3622
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "51fae24dc36b4530",
-  "name" : "test_homepage[chrome]",
-  "time" : {
-    "start" : 1629064743149,
-    "stop" : 1629064744635,
-    "duration" : 1486
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a8b8ec00b4b1fcdd",
+  "uid" : "3bc529a45de57",
   "name" : "test_homepage_is_displayed[chrome]",
   "time" : {
-    "start" : 1629064749545,
-    "stop" : 1629064749762,
+    "start" : 1629065317507,
+    "stop" : 1629065317722,
+    "duration" : 215
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81f1f09a60722fa",
+  "name" : "test_check_signup_form[chrome]",
+  "time" : {
+    "start" : 1629065205712,
+    "stop" : 1629065205856,
+    "duration" : 144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2e2c4c4cd6fa777",
+  "name" : "test_login_exist_user[chrome]",
+  "time" : {
+    "start" : 1629065214691,
+    "stop" : 1629065215951,
+    "duration" : 1260
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f278962eebd146f",
+  "name" : "test_fill_signup_form_valid[chrome]",
+  "time" : {
+    "start" : 1629065197296,
+    "stop" : 1629065199698,
+    "duration" : 2402
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94368416b1292576",
+  "name" : "test_navigate_to_user_page[chrome]",
+  "time" : {
+    "start" : 1629065244315,
+    "stop" : 1629065253593,
+    "duration" : 9278
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a3b54a80c4b3783",
+  "name" : "test_homepage[chrome]",
+  "time" : {
+    "start" : 1629065204236,
+    "stop" : 1629065205709,
+    "duration" : 1473
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2af48e913ca0ef8",
+  "name" : "test_logout_successful[chrome]",
+  "time" : {
+    "start" : 1629065202714,
+    "stop" : 1629065202933,
+    "duration" : 219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53de3a34a8a3e90e",
+  "name" : "test_homepage_is_displayed[chrome]",
+  "time" : {
+    "start" : 1629065323712,
+    "stop" : 1629065323851,
+    "duration" : 139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b632c81a8b51a2f7",
+  "name" : "test_homepage_is_displayed[chrome]",
+  "time" : {
+    "start" : 1629065217097,
+    "stop" : 1629065217314,
     "duration" : 217
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6adb6e5406750b90",
-  "name" : "test_fill_signup_form_invalid_email[chrome]",
+  "uid" : "251227e96acd583b",
+  "name" : "test_homepage_cookie[chrome]",
   "time" : {
-    "start" : 1629064638157,
-    "stop" : 1629064639589,
-    "duration" : 1432
+    "start" : 1629065319049,
+    "stop" : 1629065323707,
+    "duration" : 4658
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "19281a0f03242137",
-  "name" : "test_logout_exist_user[chrome]",
-  "time" : {
-    "start" : 1629064648277,
-    "stop" : 1629064649400,
-    "duration" : 1123
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3be4502fc43cb386",
-  "name" : "test_count_before_delete[chrome]",
-  "time" : {
-    "start" : 1629064710587,
-    "stop" : 1629064723124,
-    "duration" : 12537
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9613101683fccd51",
-  "name" : "test_login_exist_user[chrome]",
-  "time" : {
-    "start" : 1629064707342,
-    "stop" : 1629064710585,
-    "duration" : 3243
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cf53926dab2840b0",
-  "name" : "test_login_exist_user[chrome]",
-  "time" : {
-    "start" : 1629064744735,
-    "stop" : 1629064747996,
-    "duration" : 3261
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3b5e66ab4270273a",
-  "name" : "test_check_login_form[chrome]",
-  "time" : {
-    "start" : 1629064744638,
-    "stop" : 1629064744733,
-    "duration" : 95
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b9b6719b8fffcd5b",
-  "name" : "test_login_exist_user[chrome]",
-  "time" : {
-    "start" : 1629064665906,
-    "stop" : 1629064667158,
-    "duration" : 1252
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "30154c22eb290be",
-  "name" : "test_check_login_form[chrome]",
-  "time" : {
-    "start" : 1629064707250,
-    "stop" : 1629064707340,
-    "duration" : 90
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "120cf6c848e9ba01",
-  "name" : "test_login_exist_user[chrome]",
-  "time" : {
-    "start" : 1629064657177,
-    "stop" : 1629064658438,
-    "duration" : 1261
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5f7068a3ef209013",
-  "name" : "test_homepage[chrome]",
-  "time" : {
-    "start" : 1629064664329,
-    "stop" : 1629064665801,
-    "duration" : 1472
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b69e5ccace12e558",
-  "name" : "test_homepage_is_displayed[chrome]",
-  "time" : {
-    "start" : 1629064730691,
-    "stop" : 1629064731008,
-    "duration" : 317
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bd3dd4fc3eb11c6d",
-  "name" : "test_homepage_is_displayed[chrome]",
-  "time" : {
-    "start" : 1629064705169,
-    "stop" : 1629064705412,
-    "duration" : 243
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "21a3762affe37c56",
-  "name" : "test_homepage_is_displayed[chrome]",
-  "time" : {
-    "start" : 1629064672130,
-    "stop" : 1629064672361,
-    "duration" : 231
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d13b0856f9a67714",
-  "name" : "test_edit_an_existing_article[chrome]",
-  "time" : {
-    "start" : 1629064689989,
-    "stop" : 1629064704988,
-    "duration" : 14999
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6c6d6b53faa301ee",
-  "name" : "test_navigate_home[chrome]",
-  "time" : {
-    "start" : 1629064643756,
-    "stop" : 1629064643882,
-    "duration" : 126
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "46da40b1d13588c8",
-  "name" : "test_open_to_edit_an_existing_article[chrome]",
-  "time" : {
-    "start" : 1629064685787,
-    "stop" : 1629064689986,
-    "duration" : 4199
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5fd7221cae4e7dc3",
-  "name" : "test_login_not_exist_user[chrome]",
-  "time" : {
-    "start" : 1629064652501,
-    "stop" : 1629064654002,
-    "duration" : 1501
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "eb853ca86b594291",
-  "name" : "test_fill_signup_form_invalid_username[chrome]",
-  "time" : {
-    "start" : 1629064640995,
-    "stop" : 1629064642361,
-    "duration" : 1366
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8199658094548dc",
-  "name" : "test_logout_exist_user[chrome]",
-  "time" : {
-    "start" : 1629064658441,
-    "stop" : 1629064662778,
-    "duration" : 4337
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "576a4aa91c2215e3",
+  "uid" : "1a8b23c38743f94",
   "name" : "test_fill_signup_form_existing_email[chrome]",
   "time" : {
-    "start" : 1629064642364,
-    "stop" : 1629064643754,
-    "duration" : 1390
+    "start" : 1629065210050,
+    "stop" : 1629065211446,
+    "duration" : 1396
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4fc8e2e011954980",
+  "uid" : "a2a072cb44c0860c",
+  "name" : "test_login_exist_user[chrome]",
+  "time" : {
+    "start" : 1629065302699,
+    "stop" : 1629065305953,
+    "duration" : 3254
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f15c3e935aecfe2a",
+  "name" : "test_login_not_exist_user[chrome]",
+  "time" : {
+    "start" : 1629065220237,
+    "stop" : 1629065221764,
+    "duration" : 1527
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "378194b420788630",
+  "name" : "test_navigate_to_new_article[chrome]",
+  "time" : {
+    "start" : 1629065234927,
+    "stop" : 1629065236068,
+    "duration" : 1141
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b0338882a20cce6",
+  "name" : "test_logout_exist_user[chrome]",
+  "time" : {
+    "start" : 1629065226161,
+    "stop" : 1629065230527,
+    "duration" : 4366
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "724da099db12f064",
+  "name" : "test_homepage_is_displayed[chrome]",
+  "time" : {
+    "start" : 1629065309468,
+    "stop" : 1629065309710,
+    "duration" : 242
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a676f9a95ed14359",
+  "name" : "test_edit_an_existing_article[chrome]",
+  "time" : {
+    "start" : 1629065296187,
+    "stop" : 1629065299557,
+    "duration" : 3370
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e3790faf641b762",
+  "name" : "test_write_new_article[chrome]",
+  "time" : {
+    "start" : 1629065236071,
+    "stop" : 1629065239678,
+    "duration" : 3607
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f6367bace477b0a",
   "name" : "test_homepage[chrome]",
   "time" : {
-    "start" : 1629064627792,
-    "stop" : 1629064629738,
-    "duration" : 1946
+    "start" : 1629065232072,
+    "stop" : 1629065233560,
+    "duration" : 1488
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5f1d34f624256b06",
+  "uid" : "9b81927061733cfc",
+  "name" : "test_count_before_delete[chrome]",
+  "time" : {
+    "start" : 1629065279437,
+    "stop" : 1629065292007,
+    "duration" : 12570
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d9c29f370f9167",
+  "name" : "test_fill_signup_form_invalid_password[chrome]",
+  "time" : {
+    "start" : 1629065207306,
+    "stop" : 1629065208671,
+    "duration" : 1365
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f29b737f95cb902",
+  "name" : "test_homepage[chrome]",
+  "time" : {
+    "start" : 1629065301106,
+    "stop" : 1629065302595,
+    "duration" : 1489
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "15707d75b1a97cce",
   "name" : "test_check_signup_form[chrome]",
   "time" : {
-    "start" : 1629064638017,
-    "stop" : 1629064638155,
-    "duration" : 138
+    "start" : 1629065197145,
+    "stop" : 1629065197294,
+    "duration" : 149
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "77af220b65cfb602",
+  "uid" : "9936a2ee4f2b5cd",
   "name" : "test_homepage[chrome]",
   "time" : {
-    "start" : 1629064655535,
-    "stop" : 1629064657053,
-    "duration" : 1518
+    "start" : 1629065213109,
+    "stop" : 1629065214586,
+    "duration" : 1477
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9b58687d6f70b67b",
-  "name" : "test_check_write_list_into_text_file[chrome]",
+  "uid" : "889f56cbc71156e4",
+  "name" : "test_check_login_form[chrome]",
   "time" : {
-    "start" : 1629064747998,
-    "stop" : 1629064749543,
-    "duration" : 1545
+    "start" : 1629065214590,
+    "stop" : 1629065214689,
+    "duration" : 99
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a6f6f0389cb58ea",
+  "name" : "test_check_login_form[chrome]",
+  "time" : {
+    "start" : 1629065242947,
+    "stop" : 1629065243050,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e9e6c5946abdac",
+  "name" : "test_homepage[chrome]",
+  "time" : {
+    "start" : 1629065218631,
+    "stop" : 1629065220131,
+    "duration" : 1500
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc1db580f57279c7",
+  "name" : "test_navigate_home[chrome]",
+  "time" : {
+    "start" : 1629065211448,
+    "stop" : 1629065211564,
+    "duration" : 116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a8d13b0d470b814",
+  "name" : "test_homepage[chrome]",
+  "time" : {
+    "start" : 1629065311027,
+    "stop" : 1629065312553,
+    "duration" : 1526
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f270f47fcb55908d",
+  "name" : "test_check_login_form[chrome]",
+  "time" : {
+    "start" : 1629065224803,
+    "stop" : 1629065224902,
+    "duration" : 99
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5baf05b83dbfec2",
+  "name" : "test_check_new_article[chrome]",
+  "time" : {
+    "start" : 1629065272841,
+    "stop" : 1629065273020,
+    "duration" : 179
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2e17cfa5c84313e",
+  "name" : "test_delete_an_existing_article[chrome]",
+  "time" : {
+    "start" : 1629065292010,
+    "stop" : 1629065296184,
+    "duration" : 4174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58db27eed36f5f7e",
+  "name" : "test_login_exist_user[chrome]",
+  "time" : {
+    "start" : 1629065224905,
+    "stop" : 1629065226158,
+    "duration" : 1253
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45177940560588a7",
+  "name" : "test_homepage[chrome]",
+  "time" : {
+    "start" : 1629065194440,
+    "stop" : 1629065197141,
+    "duration" : 2701
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc27df4b2f762e92",
+  "name" : "test_login_exist_user[chrome]",
+  "time" : {
+    "start" : 1629065276189,
+    "stop" : 1629065279434,
+    "duration" : 3245
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "116efeea46d4b515",
+  "name" : "test_check_login_form[chrome]",
+  "time" : {
+    "start" : 1629065276085,
+    "stop" : 1629065276186,
+    "duration" : 101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa62d65a72ab1773",
+  "name" : "test_login_exist_user[chrome]",
+  "time" : {
+    "start" : 1629065233671,
+    "stop" : 1629065234924,
+    "duration" : 1253
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b95e4bdb8e6acb3c",
+  "name" : "test_login_exist_user[chrome]",
+  "time" : {
+    "start" : 1629065312658,
+    "stop" : 1629065315921,
+    "duration" : 3263
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c9ea4b9a11c05d2",
+  "name" : "test_homepage[chrome]",
+  "time" : {
+    "start" : 1629065241444,
+    "stop" : 1629065242944,
+    "duration" : 1500
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "384836387b405d48",
+  "name" : "test_homepage_is_displayed[chrome]",
+  "time" : {
+    "start" : 1629065230530,
+    "stop" : 1629065230752,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7388a80b2be26713",
+  "name" : "test_logout_exist_user[chrome]",
+  "time" : {
+    "start" : 1629065215954,
+    "stop" : 1629065217095,
+    "duration" : 1141
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6052d303e3e77374",
+  "name" : "test_homepage_is_displayed[chrome]",
+  "time" : {
+    "start" : 1629065299559,
+    "stop" : 1629065299788,
+    "duration" : 229
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24b061dead8f20ee",
+  "name" : "test_check_login_form[chrome]",
+  "time" : {
+    "start" : 1629065302599,
+    "stop" : 1629065302696,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce6e5cc474b1f654",
+  "name" : "test_homepage_is_displayed[chrome]",
+  "time" : {
+    "start" : 1629065239911,
+    "stop" : 1629065240127,
+    "duration" : 216
   },
   "status" : "passed",
   "severity" : "normal"
