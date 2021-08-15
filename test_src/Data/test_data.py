@@ -58,7 +58,6 @@ class MainPgWebElements:
     username_btn = (By.XPATH, "//*[@id='app']/nav/div/ul/li[4]/a")
     list_scroll_next_btn = (By.XPATH, "//*[@id='app']/div/div[2]/div/div[1]/div[2]/div/div/nav/ul/li[2]/a")
     post_fields = (By.XPATH, "//*[@id='app']/div/div[2]/div/div[1]/div[2]/div/div/div/a/h1")
-
     reg_successful_msg = (By.XPATH, "/html/body/div[2]/div/div[3]")
     reg_successful_accept_btn = (By.XPATH, "/html/body/div[2]/div/div[4]/div/button")
     log_out_btn = (By.XPATH, "//*[@id='app']/nav/div/ul/li[5]/a")
@@ -85,12 +84,13 @@ class EditArticlePgWebElements:
 
 class ArticlePgWebElements:
     article_title = (By.XPATH, "//*[@id='app']/div/div[1]/div/h1")
-    article = (By.XPATH, "//*[@id='app']/div/div[2]/div[1]/div/div[1]/p")
+    article_text = (By.XPATH, "//*[@id='app']/div/div[2]/div[1]/div/div[1]/p")
     log_out_btn = (By.XPATH, "//*[@id='app']/nav/div/ul/li[5]/a")
     edit_article_btn = (By.XPATH, "//*[@id='app']/div/div[1]/div/div/span/a")
     delete_article_btn = (By.XPATH, "//*[@id='app']/div/div[1]/div/div/span/button")
 
 
 class UserPgWebElements:
-    test_post = (By.XPATH, "//*[@id='app']/div/div[2]/div/div/div[2]/div/div/div/a/h1")
+    article_title = (By.XPATH, "//*[@id='app']/div/div[2]/div/div/div[2]/div/div/div/a/h1")
+    article_text = (By.XPATH, "//*[@id='app']/div/div[2]/div[1]/div/div[1]/p")
     home_btn = (By.XPATH, "//*[@id='app']/nav/div/ul/li[1]/a")

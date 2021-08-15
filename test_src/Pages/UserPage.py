@@ -10,13 +10,17 @@ class UserPage(BaseCommands):
 
     """Page Actions for User Page"""
 
-    """this used to check Test Post is displayed"""
-    def is_test_post_displayed(self):
-        return self.get_element_text(UserPgWebElements.test_post)
+    """this used to check Article Title is displayed"""
+    def is_article_title_displayed(self):
+        return self.get_element_text(UserPgWebElements.article_title)
 
-    """this used to click on the Test Post"""
-    def click_test_post(self):
-        return self.do_click(UserPgWebElements.test_post)
+    """this used to click on the Article Title"""
+    def click_article_title(self):
+        return self.do_click(UserPgWebElements.article_title)
+
+    """this used to check Article text is displayed"""
+    def is_article_text_displayed(self):
+        return self.get_element_text(UserPgWebElements.article_text)
 
     """this used to check Home Button is displayed"""
     def is_home_btn_displayed(self):

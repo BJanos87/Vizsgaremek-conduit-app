@@ -1,4 +1,4 @@
-from test_src.Tests.test04_new_article.conftest import PyFix
+from test_src.Tests.test07_scroll_list.conftest import PyFix
 from test_src.Pages.HomePage import HomePage
 from test_src.Pages.LoginPage import LoginPage
 from test_src.Pages.MainPage import MainPage

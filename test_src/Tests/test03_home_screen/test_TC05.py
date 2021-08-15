@@ -51,6 +51,7 @@ class TestHome(PyFix):
             assert self.MainPage.is_username_displayed() == TestData.reg_test_valid[0]
             assert self.MainPage.is_new_article_btn_displayed() is True
             self.MainPage.click_new_article_btn()
+            time.sleep(1)
             assert self.EditArticlePage.is_home_btn_displayed() is True
             self.EditArticlePage.click_home_btn()
             time.sleep(2)

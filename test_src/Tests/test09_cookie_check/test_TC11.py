@@ -1,4 +1,4 @@
-from test_src.Tests.test04_new_article.conftest import PyFix
+from test_src.Tests.test09_cookie_check.conftest import PyFix
 from test_src.Pages.HomePage import HomePage
 from test_src.Data.test_data import TestData
 import time
@@ -17,6 +17,7 @@ class TestCookie(PyFix):
             assert self.HomePage.get_cookie_status_from_homepage() == 1
             self.HomePage.click_cookie_accept_btn()
             self.HomePage.reload_home_page()
+            time.sleep(3)
             assert self.HomePage.get_cookie_status_from_homepage() == 2
             assert self.HomePage.check_value_cookie_from_homepage() == "accept"
             time.sleep(1)

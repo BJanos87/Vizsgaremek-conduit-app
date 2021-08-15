@@ -76,7 +76,7 @@ class TestNewArticle(PyFix):
         try:
             self.ArticlePage = ArticlePage(self.driver)
             assert self.ArticlePage.is_article_title_displayed() == TestData.inputs_article_form[0]
-            assert self.ArticlePage.is_article_displayed() == TestData.input_article_form_textarea
+            assert self.ArticlePage.is_article_text_displayed() == TestData.input_article_form_textarea
             assert self.ArticlePage.is_log_out_btn_is_displayed() is True
             self.ArticlePage.click_log_out_btn()
         except AssertionError as err:

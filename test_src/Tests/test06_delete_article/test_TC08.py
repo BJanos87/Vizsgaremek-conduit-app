@@ -1,4 +1,4 @@
-from test_src.Tests.test04_new_article.conftest import PyFix
+from test_src.Tests.test06_delete_article.conftest import PyFix
 from test_src.Pages.HomePage import HomePage
 from test_src.Pages.LoginPage import LoginPage
 from test_src.Pages.MainPage import MainPage
@@ -60,6 +60,7 @@ class TestDeleteArticle(PyFix):
             assert self.MainPage.count_post_fields() == 2
             self.MainPage.click_user_btn()
             time.sleep(3)
+            assert self.UserPage.is_home_btn_displayed() is True
             self.UserPage.click_home_btn()
             time.sleep(3)
             self.MainPage.click_user_btn()
@@ -72,8 +73,9 @@ class TestDeleteArticle(PyFix):
         try:
             self.UserPage = UserPage(self.driver)
             self.ArticlePage = ArticlePage(self.driver)
-            # assert self.UserPage.is_test_post_displayed() == TestData.inputs_article_form[0]
-            self.UserPage.click_test_post()
+            # assert self.UserPage.is_article_title_displayed() == TestData.inputs_article_form_changes[0]
+            # assert self.UserPage.is_article_text_displayed() == TestData.input_article_form_textarea_change
+            self.UserPage.click_article_title()
             time.sleep(1)
             assert self.ArticlePage.is_delete_article_btn_displayed() is True
             self.ArticlePage.click_delete_article_btn()

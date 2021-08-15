@@ -15,8 +15,8 @@ class ArticlePage(BaseCommands):
         return self.get_element_text(ArticlePgWebElements.article_title)
 
     """this used to check Article is displayed"""
-    def is_article_displayed(self):
-        return self.get_element_text(ArticlePgWebElements.article)
+    def is_article_text_displayed(self):
+        return self.get_element_text(ArticlePgWebElements.article_text)
 
     """this used to check Edit Article button is displayed"""
     def is_edit_article_btn_displayed(self):

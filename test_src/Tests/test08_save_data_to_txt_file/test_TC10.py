@@ -1,4 +1,4 @@
-from test_src.Tests.test04_new_article.conftest import PyFix
+from test_src.Tests.test08_save_data_to_txt_file.conftest import PyFix
 from test_src.Pages.HomePage import HomePage
 from test_src.Pages.LoginPage import LoginPage
 from test_src.Pages.MainPage import MainPage
@@ -42,7 +42,7 @@ class TestSaveData(PyFix):
         except AssertionError as err:
             self.pytest.fail(TestData.assert_error_msg, err)
 
-    """this used to compare web elements with text file"""
+    """this used to compare web elements with saved text file"""
     def test_check_write_list_into_text_file(self):
         try:
             self.MainPage = MainPage(self.driver)
