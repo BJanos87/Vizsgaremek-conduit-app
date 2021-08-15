@@ -1,24 +1,4 @@
 {
-  "2de4b86ded167e62265e0020a7c36a01" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ec89df1dd7c845eb",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/ec89df1dd7c845eb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1629069413427,
-        "stop" : 1629069414828,
-        "duration" : 1401
-      }
-    } ]
-  },
   "ea5aa1bae25a8c32f3b7c95080342341" : {
     "statistic" : {
       "failed" : 0,
@@ -29,13 +9,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b6fba1712100069c",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/b6fba1712100069c",
+      "uid" : "56f58307a51c60d4",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/56f58307a51c60d4",
       "status" : "passed",
       "time" : {
-        "start" : 1629069478774,
-        "stop" : 1629069478990,
-        "duration" : 216
+        "start" : 1629069823093,
+        "stop" : 1629069823331,
+        "duration" : 238
+      }
+    } ]
+  },
+  "2de4b86ded167e62265e0020a7c36a01" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e3eaa6afd5e03abc",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/e3eaa6afd5e03abc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629069757663,
+        "stop" : 1629069759036,
+        "duration" : 1373
       }
     } ]
   },
@@ -49,13 +49,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2dd0110ef74e2130",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/2dd0110ef74e2130",
+      "uid" : "dc79bdde9c5dd533",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/dc79bdde9c5dd533",
       "status" : "passed",
       "time" : {
-        "start" : 1629069426229,
-        "stop" : 1629069426327,
-        "duration" : 98
+        "start" : 1629069770467,
+        "stop" : 1629069770561,
+        "duration" : 94
       }
     } ]
   },
@@ -69,13 +69,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "38617281644e4df1",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/38617281644e4df1",
+      "uid" : "8609c04dfcd61f6b",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/8609c04dfcd61f6b",
       "status" : "passed",
       "time" : {
-        "start" : 1629069426329,
-        "stop" : 1629069427831,
-        "duration" : 1502
+        "start" : 1629069770563,
+        "stop" : 1629069772062,
+        "duration" : 1499
       }
     } ]
   },
@@ -89,13 +89,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8c0e286e172154f6",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/8c0e286e172154f6",
+      "uid" : "348d4d2904c6c1a9",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/348d4d2904c6c1a9",
       "status" : "passed",
       "time" : {
-        "start" : 1629069417676,
-        "stop" : 1629069417903,
-        "duration" : 227
+        "start" : 1629069761901,
+        "stop" : 1629069762134,
+        "duration" : 233
       }
     } ]
   },
@@ -109,13 +109,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "31cf4be5715f5a2",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/31cf4be5715f5a2",
+      "uid" : "72d1a4359fa6d6c2",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/72d1a4359fa6d6c2",
       "status" : "passed",
       "time" : {
-        "start" : 1629069439488,
-        "stop" : 1629069439581,
-        "duration" : 93
+        "start" : 1629069783778,
+        "stop" : 1629069783869,
+        "duration" : 91
       }
     } ]
   },
@@ -129,13 +129,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "67397a07fcee3c67",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/67397a07fcee3c67",
+      "uid" : "8f2ceed6d08c3d51",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/8f2ceed6d08c3d51",
       "status" : "passed",
       "time" : {
-        "start" : 1629069448867,
-        "stop" : 1629069450095,
-        "duration" : 1228
+        "start" : 1629069793194,
+        "stop" : 1629069794447,
+        "duration" : 1253
       }
     } ]
   },
@@ -149,33 +149,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e782d0eca6c8f000",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/e782d0eca6c8f000",
+      "uid" : "57a3ea2df1662d01",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/57a3ea2df1662d01",
       "status" : "passed",
       "time" : {
-        "start" : 1629069478611,
-        "stop" : 1629069478772,
-        "duration" : 161
-      }
-    } ]
-  },
-  "b810524ad6d51a8941bfe54108bc688b" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "e3daa7a2a6d9392f",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/e3daa7a2a6d9392f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1629069436491,
-        "stop" : 1629069436695,
-        "duration" : 204
+        "start" : 1629069822915,
+        "stop" : 1629069823090,
+        "duration" : 175
       }
     } ]
   },
@@ -189,13 +169,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "783a5649c9430f34",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/783a5649c9430f34",
+      "uid" : "896262d3566afb93",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/896262d3566afb93",
       "status" : "passed",
       "time" : {
-        "start" : 1629069505236,
-        "stop" : 1629069505453,
-        "duration" : 217
+        "start" : 1629069849614,
+        "stop" : 1629069849939,
+        "duration" : 325
+      }
+    } ]
+  },
+  "b810524ad6d51a8941bfe54108bc688b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "44c060472e573104",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/44c060472e573104",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629069780736,
+        "stop" : 1629069780962,
+        "duration" : 226
       }
     } ]
   },
@@ -209,13 +209,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "947d3f312cc18c93",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/947d3f312cc18c93",
+      "uid" : "d385c7fbd67ed903",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/d385c7fbd67ed903",
       "status" : "passed",
       "time" : {
-        "start" : 1629069463577,
-        "stop" : 1629069478607,
-        "duration" : 15030
+        "start" : 1629069807904,
+        "stop" : 1629069822913,
+        "duration" : 15009
       }
     } ]
   },
@@ -229,13 +229,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b707f6d6cf10dfc2",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/b707f6d6cf10dfc2",
+      "uid" : "fdfefda2a2db8054",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/fdfefda2a2db8054",
       "status" : "passed",
       "time" : {
-        "start" : 1629069408844,
-        "stop" : 1629069409045,
-        "duration" : 201
+        "start" : 1629069753024,
+        "stop" : 1629069753249,
+        "duration" : 225
       }
     } ]
   },
@@ -249,13 +249,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "82a9f2d938cf8328",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/82a9f2d938cf8328",
+      "uid" : "38f4e6c562259610",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/38f4e6c562259610",
       "status" : "passed",
       "time" : {
-        "start" : 1629069481904,
-        "stop" : 1629069485155,
-        "duration" : 3251
+        "start" : 1629069826213,
+        "stop" : 1629069829463,
+        "duration" : 3250
       }
     } ]
   },
@@ -269,13 +269,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "620a050bba472347",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/620a050bba472347",
+      "uid" : "c60c03e003a19093",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/c60c03e003a19093",
       "status" : "passed",
       "time" : {
-        "start" : 1629069438017,
-        "stop" : 1629069439484,
-        "duration" : 1467
+        "start" : 1629069782275,
+        "stop" : 1629069783774,
+        "duration" : 1499
       }
     } ]
   },
@@ -289,33 +289,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4def9eb679e7c4ec",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/4def9eb679e7c4ec",
+      "uid" : "a3b6344ca5a6c2b",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/a3b6344ca5a6c2b",
       "status" : "passed",
       "time" : {
-        "start" : 1629069508349,
-        "stop" : 1629069511602,
-        "duration" : 3253
-      }
-    } ]
-  },
-  "1486e1ea0a2127a9ae697e6ff93c912a" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "963ed0e2fa12f907",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/963ed0e2fa12f907",
-      "status" : "passed",
-      "time" : {
-        "start" : 1629069419219,
-        "stop" : 1629069420707,
-        "duration" : 1488
+        "start" : 1629069852853,
+        "stop" : 1629069856090,
+        "duration" : 3237
       }
     } ]
   },
@@ -329,17 +309,17 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ac0f1d21315736f2",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/ac0f1d21315736f2",
+      "uid" : "f846fc4737e9bbe5",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/f846fc4737e9bbe5",
       "status" : "passed",
       "time" : {
-        "start" : 1629069450098,
-        "stop" : 1629069459372,
-        "duration" : 9274
+        "start" : 1629069794450,
+        "stop" : 1629069803698,
+        "duration" : 9248
       }
     } ]
   },
-  "0d92c90358a8b9215785a9df93aca93b" : {
+  "1486e1ea0a2127a9ae697e6ff93c912a" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -349,13 +329,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "15abfa585958865b",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/15abfa585958865b",
+      "uid" : "f6889e6ecada68ab",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/f6889e6ecada68ab",
       "status" : "passed",
       "time" : {
-        "start" : 1629069403417,
-        "stop" : 1629069405926,
-        "duration" : 2509
+        "start" : 1629069763443,
+        "stop" : 1629069764927,
+        "duration" : 1484
       }
     } ]
   },
@@ -369,13 +349,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d65a2edacc440b98",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/d65a2edacc440b98",
+      "uid" : "5ff0bd972816a94c",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/5ff0bd972816a94c",
       "status" : "passed",
       "time" : {
-        "start" : 1629069430918,
-        "stop" : 1629069432150,
-        "duration" : 1232
+        "start" : 1629069775129,
+        "stop" : 1629069776375,
+        "duration" : 1246
+      }
+    } ]
+  },
+  "0d92c90358a8b9215785a9df93aca93b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ee002672f337d80b",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/ee002672f337d80b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629069748235,
+        "stop" : 1629069750529,
+        "duration" : 2294
       }
     } ]
   },
@@ -389,13 +389,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d1bcf8b600260bb8",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/d1bcf8b600260bb8",
+      "uid" : "f6f1ed659deae34a",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/f6f1ed659deae34a",
       "status" : "passed",
       "time" : {
-        "start" : 1629069432154,
-        "stop" : 1629069436489,
-        "duration" : 4335
+        "start" : 1629069776377,
+        "stop" : 1629069780734,
+        "duration" : 4357
       }
     } ]
   },
@@ -409,13 +409,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ebf826b9de0aaaef",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/ebf826b9de0aaaef",
+      "uid" : "ba80579feb8ea4e0",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/ba80579feb8ea4e0",
       "status" : "passed",
       "time" : {
-        "start" : 1629069416197,
-        "stop" : 1629069417555,
-        "duration" : 1358
+        "start" : 1629069760405,
+        "stop" : 1629069761777,
+        "duration" : 1372
       }
     } ]
   },
@@ -429,13 +429,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "750b258214212b93",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/750b258214212b93",
+      "uid" : "dca2ebed094663c4",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/dca2ebed094663c4",
       "status" : "passed",
       "time" : {
-        "start" : 1629069445761,
-        "stop" : 1629069445962,
-        "duration" : 201
+        "start" : 1629069790056,
+        "stop" : 1629069790299,
+        "duration" : 243
       }
     } ]
   },
@@ -449,13 +449,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2a84546eb7113402",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/2a84546eb7113402",
+      "uid" : "11d686ed93287930",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/11d686ed93287930",
       "status" : "passed",
       "time" : {
-        "start" : 1629069420809,
-        "stop" : 1629069422046,
-        "duration" : 1237
+        "start" : 1629069765027,
+        "stop" : 1629069766323,
+        "duration" : 1296
       }
     } ]
   },
@@ -469,13 +469,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "27d4419a0932ef0b",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/27d4419a0932ef0b",
+      "uid" : "a48c98b121229eb1",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/a48c98b121229eb1",
       "status" : "passed",
       "time" : {
-        "start" : 1629069422049,
-        "stop" : 1629069423178,
-        "duration" : 1129
+        "start" : 1629069766326,
+        "stop" : 1629069767453,
+        "duration" : 1127
       }
     } ]
   },
@@ -489,13 +489,34 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "742772d16384b2ec",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/742772d16384b2ec",
+      "uid" : "3b515d801110ddbe",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/3b515d801110ddbe",
       "status" : "passed",
       "time" : {
-        "start" : 1629069480302,
-        "stop" : 1629069481797,
-        "duration" : 1495
+        "start" : 1629069824639,
+        "stop" : 1629069826117,
+        "duration" : 1478
+      }
+    } ]
+  },
+  "2a3e9f3dda062ef4e34da4ff25547649" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9c507e113fa2817a",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/9c507e113fa2817a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'TestDeleteArticle' object has no attribute 'pytest'",
+      "time" : {
+        "start" : 1629069846225,
+        "stop" : 1629069849564,
+        "duration" : 3339
       }
     } ]
   },
@@ -509,53 +530,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a80209021e871502",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/a80209021e871502",
+      "uid" : "5c582619291e12e5",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/5c582619291e12e5",
       "status" : "passed",
       "time" : {
-        "start" : 1629069524609,
-        "stop" : 1629069529227,
-        "duration" : 4618
-      }
-    } ]
-  },
-  "2a3e9f3dda062ef4e34da4ff25547649" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "8608cd03c84e590d",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/8608cd03c84e590d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1629069501895,
-        "stop" : 1629069505234,
-        "duration" : 3339
-      }
-    } ]
-  },
-  "e833fc79767746d1174c5a956b50c3e0" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "39257d5d04a0fb87",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/39257d5d04a0fb87",
-      "status" : "passed",
-      "time" : {
-        "start" : 1629069529232,
-        "stop" : 1629069529361,
-        "duration" : 129
+        "start" : 1629069870027,
+        "stop" : 1629069874693,
+        "duration" : 4666
       }
     } ]
   },
@@ -569,17 +550,17 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "265b0f912add6736",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/265b0f912add6736",
+      "uid" : "ffb8e1cf2779b4d2",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/ffb8e1cf2779b4d2",
       "status" : "passed",
       "time" : {
-        "start" : 1629069448771,
-        "stop" : 1629069448865,
-        "duration" : 94
+        "start" : 1629069793099,
+        "stop" : 1629069793192,
+        "duration" : 93
       }
     } ]
   },
-  "eb84a7a0c7fdd8cedf29d4efd21a7bce" : {
+  "e833fc79767746d1174c5a956b50c3e0" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -589,13 +570,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "621ff80e88f35a1f",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/621ff80e88f35a1f",
+      "uid" : "b1446f3db0d1fc34",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/b1446f3db0d1fc34",
       "status" : "passed",
       "time" : {
-        "start" : 1629069417557,
-        "stop" : 1629069417674,
-        "duration" : 117
+        "start" : 1629069874696,
+        "stop" : 1629069874837,
+        "duration" : 141
       }
     } ]
   },
@@ -609,13 +590,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a501b7a1a21a2780",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/a501b7a1a21a2780",
+      "uid" : "bc380099b3bebb3e",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/bc380099b3bebb3e",
       "status" : "passed",
       "time" : {
-        "start" : 1629069403281,
-        "stop" : 1629069403415,
-        "duration" : 134
+        "start" : 1629069748094,
+        "stop" : 1629069748233,
+        "duration" : 139
+      }
+    } ]
+  },
+  "eb84a7a0c7fdd8cedf29d4efd21a7bce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "43c6268e3a3e706e",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/43c6268e3a3e706e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629069761780,
+        "stop" : 1629069761898,
+        "duration" : 118
       }
     } ]
   },
@@ -629,13 +630,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f75387f48f70eaf9",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/f75387f48f70eaf9",
+      "uid" : "5f1743987a341aef",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/5f1743987a341aef",
       "status" : "passed",
       "time" : {
-        "start" : 1629069405930,
-        "stop" : 1629069408841,
-        "duration" : 2911
+        "start" : 1629069750532,
+        "stop" : 1629069753021,
+        "duration" : 2489
       }
     } ]
   },
@@ -649,13 +650,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ee65a40f15119715",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/ee65a40f15119715",
+      "uid" : "1a7126e672b471ac",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/1a7126e672b471ac",
       "status" : "passed",
       "time" : {
-        "start" : 1629069481802,
-        "stop" : 1629069481901,
-        "duration" : 99
+        "start" : 1629069826120,
+        "stop" : 1629069826210,
+        "duration" : 90
       }
     } ]
   },
@@ -669,13 +670,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f33a9b1f9b5b6d23",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/f33a9b1f9b5b6d23",
+      "uid" : "b4cf9c135ec3f8",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/b4cf9c135ec3f8",
       "status" : "passed",
       "time" : {
-        "start" : 1629069410345,
-        "stop" : 1629069411822,
-        "duration" : 1477
+        "start" : 1629069754553,
+        "stop" : 1629069756098,
+        "duration" : 1545
       }
     } ]
   },
@@ -689,73 +690,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ba2171c077cbe8a3",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/ba2171c077cbe8a3",
+      "uid" : "6a04416fce6c4166",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/6a04416fce6c4166",
       "status" : "passed",
       "time" : {
-        "start" : 1629069411972,
-        "stop" : 1629069413423,
-        "duration" : 1451
-      }
-    } ]
-  },
-  "c160d88166e9068ab34d601b829dd922" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "a5bc9d46efc37fc5",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/a5bc9d46efc37fc5",
-      "status" : "passed",
-      "time" : {
-        "start" : 1629069485158,
-        "stop" : 1629069497715,
-        "duration" : 12557
-      }
-    } ]
-  },
-  "69b0f0fd85ff85a0efe2c1c18b818cb5" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "c325defd39c7fcaa",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/c325defd39c7fcaa",
-      "status" : "passed",
-      "time" : {
-        "start" : 1629069423182,
-        "stop" : 1629069423386,
-        "duration" : 204
-      }
-    } ]
-  },
-  "f429a5d166de4520b098545270c9e8ec" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "8a678965beae3ff2",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/8a678965beae3ff2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1629069429348,
-        "stop" : 1629069430806,
-        "duration" : 1458
+        "start" : 1629069756238,
+        "stop" : 1629069757661,
+        "duration" : 1423
       }
     } ]
   },
@@ -769,34 +710,93 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "394d54ecec44fc5b",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/394d54ecec44fc5b",
+      "uid" : "ae08339495e0fa54",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/ae08339495e0fa54",
       "status" : "passed",
       "time" : {
-        "start" : 1629069441952,
-        "stop" : 1629069445543,
-        "duration" : 3591
+        "start" : 1629069786231,
+        "stop" : 1629069789833,
+        "duration" : 3602
       }
     } ]
   },
   "0ba54b6cdbb0eaedf615627e869cd51c" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c7bbee86830ef7b2",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/c7bbee86830ef7b2",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'TestScrollList' object has no attribute 'pytest'",
+      "uid" : "6872add020fdc91c",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/6872add020fdc91c",
+      "status" : "passed",
       "time" : {
-        "start" : 1629069511606,
-        "stop" : 1629069515060,
-        "duration" : 3454
+        "start" : 1629069856092,
+        "stop" : 1629069860573,
+        "duration" : 4481
+      }
+    } ]
+  },
+  "c160d88166e9068ab34d601b829dd922" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ac88c9715d292364",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/ac88c9715d292364",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629069829466,
+        "stop" : 1629069842038,
+        "duration" : 12572
+      }
+    } ]
+  },
+  "69b0f0fd85ff85a0efe2c1c18b818cb5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1871e013965edf1b",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/1871e013965edf1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629069767456,
+        "stop" : 1629069767662,
+        "duration" : 206
+      }
+    } ]
+  },
+  "f429a5d166de4520b098545270c9e8ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cae0afadd3558c6e",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/cae0afadd3558c6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629069773572,
+        "stop" : 1629069775026,
+        "duration" : 1454
       }
     } ]
   },
@@ -810,13 +810,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "561030ef02faeca1",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/561030ef02faeca1",
+      "uid" : "8eebc19f4cc08ce9",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/8eebc19f4cc08ce9",
       "status" : "passed",
       "time" : {
-        "start" : 1629069506767,
-        "stop" : 1629069508253,
-        "duration" : 1486
+        "start" : 1629069851247,
+        "stop" : 1629069852745,
+        "duration" : 1498
       }
     } ]
   },
@@ -830,53 +830,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "17c15b0bf3bb196c",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/17c15b0bf3bb196c",
+      "uid" : "6dc5e59b522bc5a3",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/6dc5e59b522bc5a3",
       "status" : "passed",
       "time" : {
-        "start" : 1629069411827,
-        "stop" : 1629069411970,
-        "duration" : 143
-      }
-    } ]
-  },
-  "f06e1e1138b7d580ac0515bcd1cef134" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "582ccf2caf2311ba",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/582ccf2caf2311ba",
-      "status" : "passed",
-      "time" : {
-        "start" : 1629069445546,
-        "stop" : 1629069445759,
-        "duration" : 213
-      }
-    } ]
-  },
-  "367efb701fb59a76e1ab771619614730" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "7aff024dcb160f07",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/7aff024dcb160f07",
-      "status" : "passed",
-      "time" : {
-        "start" : 1629069508257,
-        "stop" : 1629069508347,
-        "duration" : 90
+        "start" : 1629069756101,
+        "stop" : 1629069756236,
+        "duration" : 135
       }
     } ]
   },
@@ -890,13 +850,53 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9d5a34a45aeb91ba",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/9d5a34a45aeb91ba",
+      "uid" : "1490d6cf4a038704",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/1490d6cf4a038704",
       "status" : "passed",
       "time" : {
-        "start" : 1629069439583,
-        "stop" : 1629069440827,
-        "duration" : 1244
+        "start" : 1629069783871,
+        "stop" : 1629069785116,
+        "duration" : 1245
+      }
+    } ]
+  },
+  "367efb701fb59a76e1ab771619614730" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "247aa5472c554cb",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/247aa5472c554cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629069852749,
+        "stop" : 1629069852850,
+        "duration" : 101
+      }
+    } ]
+  },
+  "f06e1e1138b7d580ac0515bcd1cef134" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6cbe21c123d60341",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/6cbe21c123d60341",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629069789836,
+        "stop" : 1629069790053,
+        "duration" : 217
       }
     } ]
   },
@@ -910,13 +910,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ed9cbe7fb406cb4",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/ed9cbe7fb406cb4",
+      "uid" : "c86e5eaf2c8cc97f",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/c86e5eaf2c8cc97f",
       "status" : "passed",
       "time" : {
-        "start" : 1629069518229,
-        "stop" : 1629069518326,
-        "duration" : 97
+        "start" : 1629069863608,
+        "stop" : 1629069863698,
+        "duration" : 90
       }
     } ]
   },
@@ -930,13 +930,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "faa818d9f5e38626",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/faa818d9f5e38626",
+      "uid" : "192800128a3fae5b",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/192800128a3fae5b",
       "status" : "passed",
       "time" : {
-        "start" : 1629069521570,
-        "stop" : 1629069523088,
-        "duration" : 1518
+        "start" : 1629069866959,
+        "stop" : 1629069868493,
+        "duration" : 1534
       }
     } ]
   },
@@ -950,13 +950,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5275c8a4c1758c1e",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/5275c8a4c1758c1e",
+      "uid" : "3a4e20c45cef48dd",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/3a4e20c45cef48dd",
       "status" : "passed",
       "time" : {
-        "start" : 1629069497718,
-        "stop" : 1629069501892,
-        "duration" : 4174
+        "start" : 1629069842041,
+        "stop" : 1629069846222,
+        "duration" : 4181
       }
     } ]
   },
@@ -970,13 +970,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c1ce3e7ce6f6a58a",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/c1ce3e7ce6f6a58a",
+      "uid" : "9439c8807d8bd8f0",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/9439c8807d8bd8f0",
       "status" : "passed",
       "time" : {
-        "start" : 1629069400617,
-        "stop" : 1629069403277,
-        "duration" : 2660
+        "start" : 1629069746427,
+        "stop" : 1629069748091,
+        "duration" : 1664
       }
     } ]
   },
@@ -990,13 +990,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2c2b26e638612202",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/2c2b26e638612202",
+      "uid" : "ea15d46e08ba41b8",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/ea15d46e08ba41b8",
       "status" : "passed",
       "time" : {
-        "start" : 1629069420710,
-        "stop" : 1629069420807,
-        "duration" : 97
+        "start" : 1629069764930,
+        "stop" : 1629069765024,
+        "duration" : 94
       }
     } ]
   },
@@ -1010,12 +1010,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6f62a9ff19be960b",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/6f62a9ff19be960b",
+      "uid" : "f637344c91f1101e",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/f637344c91f1101e",
       "status" : "passed",
       "time" : {
-        "start" : 1629069516723,
-        "stop" : 1629069518225,
+        "start" : 1629069862103,
+        "stop" : 1629069863605,
         "duration" : 1502
       }
     } ]
@@ -1030,13 +1030,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7b9b529d9a8eea24",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/7b9b529d9a8eea24",
+      "uid" : "10b73d2603675596",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/10b73d2603675596",
       "status" : "passed",
       "time" : {
-        "start" : 1629069523092,
-        "stop" : 1629069523296,
-        "duration" : 204
+        "start" : 1629069868495,
+        "stop" : 1629069868712,
+        "duration" : 217
       }
     } ]
   },
@@ -1050,13 +1050,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1d2613d17be2f2ee",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/1d2613d17be2f2ee",
+      "uid" : "4c3007c49b19a228",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/4c3007c49b19a228",
       "status" : "passed",
       "time" : {
-        "start" : 1629069440830,
-        "stop" : 1629069441948,
-        "duration" : 1118
+        "start" : 1629069785118,
+        "stop" : 1629069786228,
+        "duration" : 1110
       }
     } ]
   },
@@ -1070,13 +1070,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "86035e56bffa7f0",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/86035e56bffa7f0",
+      "uid" : "c52276ec1ef1f56b",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/c52276ec1ef1f56b",
       "status" : "passed",
       "time" : {
-        "start" : 1629069414830,
-        "stop" : 1629069416195,
-        "duration" : 1365
+        "start" : 1629069759038,
+        "stop" : 1629069760402,
+        "duration" : 1364
       }
     } ]
   },
@@ -1090,13 +1090,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7d581ed918f93d5b",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/7d581ed918f93d5b",
+      "uid" : "8844bb66c1a69d9e",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/8844bb66c1a69d9e",
       "status" : "passed",
       "time" : {
-        "start" : 1629069447261,
-        "stop" : 1629069448766,
-        "duration" : 1505
+        "start" : 1629069791596,
+        "stop" : 1629069793096,
+        "duration" : 1500
       }
     } ]
   },
@@ -1110,13 +1110,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ecb104c53e856778",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/ecb104c53e856778",
+      "uid" : "16f48df4d4bc76ae",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/16f48df4d4bc76ae",
       "status" : "passed",
       "time" : {
-        "start" : 1629069459376,
-        "stop" : 1629069463574,
-        "duration" : 4198
+        "start" : 1629069803701,
+        "stop" : 1629069807902,
+        "duration" : 4201
       }
     } ]
   },
@@ -1130,13 +1130,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4545a2ceeecf828",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/4545a2ceeecf828",
+      "uid" : "2a9daf00e05d6bf6",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/2a9daf00e05d6bf6",
       "status" : "passed",
       "time" : {
-        "start" : 1629069515104,
-        "stop" : 1629069515419,
-        "duration" : 315
+        "start" : 1629069860576,
+        "stop" : 1629069860796,
+        "duration" : 220
       }
     } ]
   },
@@ -1150,13 +1150,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "96d1345d246b3267",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/96d1345d246b3267",
+      "uid" : "849ca9e64a448c30",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/849ca9e64a448c30",
       "status" : "passed",
       "time" : {
-        "start" : 1629069518328,
-        "stop" : 1629069521567,
-        "duration" : 3239
+        "start" : 1629069863700,
+        "stop" : 1629069866957,
+        "duration" : 3257
       }
     } ]
   },
@@ -1170,13 +1170,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4e1c22421c2639f2",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/4e1c22421c2639f2",
+      "uid" : "e3177479d97b6550",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/e3177479d97b6550",
       "status" : "passed",
       "time" : {
-        "start" : 1629069427842,
-        "stop" : 1629069428044,
-        "duration" : 202
+        "start" : 1629069772064,
+        "stop" : 1629069772273,
+        "duration" : 209
       }
     } ]
   },
@@ -1190,13 +1190,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "29796324dabf131",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/29796324dabf131",
+      "uid" : "c19ad6fbdd8a10e2",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/c19ad6fbdd8a10e2",
       "status" : "passed",
       "time" : {
-        "start" : 1629069430811,
-        "stop" : 1629069430915,
-        "duration" : 104
+        "start" : 1629069775029,
+        "stop" : 1629069775127,
+        "duration" : 98
       }
     } ]
   },
@@ -1210,13 +1210,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "48d20bf898d92698",
-      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/48d20bf898d92698",
+      "uid" : "785e21824b46191e",
+      "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/4//#testresult/785e21824b46191e",
       "status" : "passed",
       "time" : {
-        "start" : 1629069424697,
-        "stop" : 1629069426224,
-        "duration" : 1527
+        "start" : 1629069768959,
+        "stop" : 1629069770464,
+        "duration" : 1505
       }
     } ]
   }

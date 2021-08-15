@@ -3,22 +3,22 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "AttributeError: 'TestScrollList' object has no attribute 'pytest'",
+      "name" : "AttributeError: 'TestDeleteArticle' object has no attribute 'pytest'",
       "children" : [ {
-        "name" : "test_check_scroll_in_the_list[chrome]",
-        "uid" : "c7bbee86830ef7b2",
-        "parentUid" : "8fc4285bb83c4325477dc60c00c7b9de",
+        "name" : "test_edit_an_existing_article[chrome]",
+        "uid" : "9c507e113fa2817a",
+        "parentUid" : "8d33de02e7173f80f3797ec97d54e662",
         "status" : "broken",
         "time" : {
-          "start" : 1629069511606,
-          "stop" : 1629069515060,
-          "duration" : 3454
+          "start" : 1629069846225,
+          "stop" : 1629069849564,
+          "duration" : 3339
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'chrome'" ]
       } ],
-      "uid" : "8fc4285bb83c4325477dc60c00c7b9de"
+      "uid" : "8d33de02e7173f80f3797ec97d54e662"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
