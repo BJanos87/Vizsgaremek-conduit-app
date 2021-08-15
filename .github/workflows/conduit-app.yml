@@ -10,7 +10,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  Pytest_Conduit:
 
     runs-on: ubuntu-latest
 
