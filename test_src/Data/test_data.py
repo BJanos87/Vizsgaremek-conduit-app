@@ -37,7 +37,7 @@ class TestData:
 
     text_login_failed = "Invalid user credentials."
 
-    assert_error_msg = "Az oldal hibásan működik, hiba oka:"
+    assert_error_msg = "Az oldal nem az elvárt funkcionalitásnak megfelelően működik, hiba oka:"
 
 class HomePgWebElements:
     sign_up_btn = (By.XPATH, "//*[@id='app']/nav/div/ul/li[3]/a")

@@ -17,7 +17,7 @@ class TestReg02(PyFix):
             self.HomePage.click_sign_up_btn()
             time.sleep(1)
         except AssertionError as err:
-            self.pytest.fail(TestData.assert_error_msg, err)
+            self.pytest.fail(print(TestData.assert_error_msg, err))
 
     """this used to check the elements of the Registration Page"""
     """register a new user"""
@@ -29,7 +29,7 @@ class TestReg02(PyFix):
             assert self.RegPage.is_password_type() is True
             assert self.RegPage.is_sign_up_btn_displayed() is True
         except AssertionError as err:
-            self.pytest.fail(TestData.assert_error_msg, err)
+            self.pytest.fail(print(TestData.assert_error_msg, err))
 
     """this used to check to fill registration form with invalid email"""
     def test_fill_signup_form_invalid_email(self):
@@ -43,7 +43,7 @@ class TestReg02(PyFix):
             assert self.RegPage.is_reg_failed_accept_btn_displayed() is True
             self.RegPage.click_reg_failed_accept_btn()
         except AssertionError as err:
-            self.pytest.fail(TestData.assert_error_msg, err)
+            self.pytest.fail(print(TestData.assert_error_msg, err))
 
     """this used to check to fill registration form with invalid password"""
     def test_fill_signup_form_invalid_password(self):
@@ -57,7 +57,7 @@ class TestReg02(PyFix):
             assert self.RegPage.is_reg_failed_accept_btn_displayed() is True
             self.RegPage.click_reg_failed_accept_btn()
         except AssertionError as err:
-            self.pytest.fail(TestData.assert_error_msg, err)
+            self.pytest.fail(print(TestData.assert_error_msg, err))
 
     """this used to check to fill registration form with invalid username"""
     def test_fill_signup_form_invalid_username(self):
@@ -71,7 +71,7 @@ class TestReg02(PyFix):
             assert self.RegPage.is_reg_failed_accept_btn_displayed() is True
             self.RegPage.click_reg_failed_accept_btn()
         except AssertionError as err:
-            self.pytest.fail(TestData.assert_error_msg, err)
+            self.pytest.fail(print(TestData.assert_error_msg, err))
 
     """this used to check to fill registration form with an existing email"""
     def test_fill_signup_form_existing_email(self):
@@ -85,7 +85,7 @@ class TestReg02(PyFix):
             assert self.RegPage.is_reg_failed_accept_btn_displayed() is True
             self.RegPage.click_reg_failed_accept_btn()
         except AssertionError as err:
-            self.pytest.fail(TestData.assert_error_msg, err)
+            self.pytest.fail(print(TestData.assert_error_msg, err))
 
     """this used to check user is logged out"""
     def test_navigate_home(self):
@@ -94,7 +94,7 @@ class TestReg02(PyFix):
             assert self.RegPage.is_home_btn_displayed() is True
             self.RegPage.click_home_btn()
         except AssertionError as err:
-            self.pytest.fail(TestData.assert_error_msg, err)
+            self.pytest.fail(print(TestData.assert_error_msg, err))
 
     def test_homepage_is_displayed(self):
         try:
@@ -103,4 +103,4 @@ class TestReg02(PyFix):
             assert self.HomePage.get_home_page_title() == TestData.HOME_PAGE_TITLE
             assert self.HomePage.is_sign_in_btn_displayed() is True
         except AssertionError as err:
-            self.pytest.fail(TestData.assert_error_msg, err)
+            self.pytest.fail(print(TestData.assert_error_msg, err))

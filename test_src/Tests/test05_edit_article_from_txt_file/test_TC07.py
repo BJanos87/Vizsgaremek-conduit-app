@@ -21,7 +21,7 @@ class TestEditArticle(PyFix):
             self.HomePage.click_sign_in_btn()
             time.sleep(1)
         except AssertionError as err:
-            self.pytest.fail(TestData.assert_error_msg, err)
+            self.pytest.fail(print(TestData.assert_error_msg, err))
 
     """this used to check the elements of the Login Page"""
     """Login an existing user"""
@@ -32,7 +32,7 @@ class TestEditArticle(PyFix):
             assert self.LoginPage.is_inputs_placeholder() is True
             assert self.LoginPage.is_password_type() is True
         except AssertionError as err:
-            self.pytest.fail(TestData.assert_error_msg, err)
+            self.pytest.fail(print(TestData.assert_error_msg, err))
 
     """this used to fill Login Page and sign in to app"""
     def test_login_exist_user(self):
@@ -43,7 +43,7 @@ class TestEditArticle(PyFix):
             self.LoginPage.click_sign_in_btn()
             time.sleep(1)
         except AssertionError as err:
-            self.pytest.fail(TestData.assert_error_msg, err)
+            self.pytest.fail(print(TestData.assert_error_msg, err))
 
     """this used to navigate to User page"""
     def test_navigate_to_user_page(self):
@@ -59,7 +59,7 @@ class TestEditArticle(PyFix):
             self.MainPage.click_user_btn()
             time.sleep(3)
         except AssertionError as err:
-            self.pytest.fail(TestData.assert_error_msg, err)
+            self.pytest.fail(print(TestData.assert_error_msg, err))
 
     """this used to open an existing article to edit"""
     def test_open_to_edit_an_existing_article(self):
@@ -74,7 +74,7 @@ class TestEditArticle(PyFix):
             self.ArticlePage.click_edit_article_btn()
             time.sleep(3)
         except AssertionError as err:
-            self.pytest.fail(TestData.assert_error_msg, err)
+            self.pytest.fail(print(TestData.assert_error_msg, err))
 
     """this used to edit an existing article to edit from a file"""
     def test_edit_an_existing_article(self):
@@ -100,18 +100,18 @@ class TestEditArticle(PyFix):
             self.EditArticlePage.click_publish_article_btn()
             time.sleep(5)
         except AssertionError as err:
-            self.pytest.fail(TestData.assert_error_msg, err)
+            self.pytest.fail(print(TestData.assert_error_msg, err))
 
-    """this used to check to created a new article"""
-    def test_check_new_article(self):
+    """this used to check to created an edited article"""
+    def test_check_edited_article(self):
         try:
             self.ArticlePage = ArticlePage(self.driver)
-            # assert self.ArticlePage.is_article_title_displayed() == TestData.inputs_article_form_changes[0]
+            assert self.ArticlePage.is_article_title_displayed() == TestData.inputs_article_form_changes[0]
             # assert self.ArticlePage.is_article_text_displayed() == TestData.input_article_form_textarea_change
             assert self.ArticlePage.is_log_out_btn_is_displayed() is True
             self.ArticlePage.click_log_out_btn()
         except AssertionError as err:
-            self.pytest.fail(TestData.assert_error_msg, err)
+            self.pytest.fail(print(TestData.assert_error_msg, err))
 
     """this used to check successful navigate to home page"""
     def test_homepage_is_displayed(self):
@@ -121,4 +121,4 @@ class TestEditArticle(PyFix):
             assert self.HomePage.get_home_page_title() == TestData.HOME_PAGE_TITLE
             assert self.HomePage.is_sign_in_btn_displayed() is True
         except AssertionError as err:
-            self.pytest.fail(TestData.assert_error_msg, err)
+            self.pytest.fail(print(TestData.assert_error_msg, err))
