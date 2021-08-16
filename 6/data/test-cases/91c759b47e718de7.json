@@ -1,0 +1,92 @@
+{
+  "uid" : "91c759b47e718de7",
+  "name" : "test_write_new_article[chrome]",
+  "fullName" : "test_src.Tests.test04_new_article.test_TC06.TestNewArticle#test_write_new_article",
+  "historyId" : "370894e8bdf924f06478d6af346bffdc",
+  "time" : {
+    "start" : 1629147580766,
+    "stop" : 1629147584294,
+    "duration" : 3528
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init_driver",
+    "time" : {
+      "start" : 1629147576501,
+      "stop" : 1629147576722,
+      "duration" : 221
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "init_driver::0",
+    "time" : {
+      "start" : 1629147584684,
+      "stop" : 1629147584748,
+      "duration" : 64
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('init_driver')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_src.Tests.test04_new_article"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC06"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestNewArticle"
+  }, {
+    "name" : "host",
+    "value" : "fv-az77-942"
+  }, {
+    "name" : "thread",
+    "value" : "3702-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_src.Tests.test04_new_article.test_TC06"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "init_driver",
+    "value" : "'chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('init_driver')" ]
+  },
+  "source" : "91c759b47e718de7.json",
+  "parameterValues" : [ "'chrome'" ]
+}

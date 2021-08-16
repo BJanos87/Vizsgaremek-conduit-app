@@ -1,0 +1,114 @@
+{
+  "uid" : "c3c784672d639a9f",
+  "name" : "test_homepage[chrome]",
+  "fullName" : "test_src.Tests.test05_edit_article_from_txt_file.test_TC07.TestEditArticle#test_homepage",
+  "historyId" : "5ee691bd0364137060460acd68b122fd",
+  "time" : {
+    "start" : 1629147585964,
+    "stop" : 1629147587604,
+    "duration" : 1640
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init_driver",
+    "time" : {
+      "start" : 1629147584752,
+      "stop" : 1629147585963,
+      "duration" : 1211
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "edefbdf1469edf9",
+      "name" : "log",
+      "source" : "edefbdf1469edf9.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "de4f3f63085c4cb2",
+      "name" : "stderr",
+      "source" : "de4f3f63085c4cb2.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "init_driver::0",
+    "time" : {
+      "start" : 1629147617542,
+      "stop" : 1629147617603,
+      "duration" : 61
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('init_driver')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_src.Tests.test05_edit_article_from_txt_file"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC07"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestEditArticle"
+  }, {
+    "name" : "host",
+    "value" : "fv-az77-942"
+  }, {
+    "name" : "thread",
+    "value" : "3702-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_src.Tests.test05_edit_article_from_txt_file.test_TC07"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "init_driver",
+    "value" : "'chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('init_driver')" ]
+  },
+  "source" : "c3c784672d639a9f.json",
+  "parameterValues" : [ "'chrome'" ]
+}

@@ -6,36 +6,19 @@
       "name" : "AttributeError: 'TestEditArticle' object has no attribute 'pytest'",
       "children" : [ {
         "name" : "test_check_edited_article[chrome]",
-        "uid" : "c52f836b61954f7d",
+        "uid" : "65fcaa94458ec952",
         "parentUid" : "6838f651f7de03a84330b06d60991e5d",
         "status" : "broken",
         "time" : {
-          "start" : 1629147303676,
-          "stop" : 1629147303717,
-          "duration" : 41
+          "start" : 1629147617286,
+          "stop" : 1629147617317,
+          "duration" : 31
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'chrome'" ]
       } ],
       "uid" : "6838f651f7de03a84330b06d60991e5d"
-    }, {
-      "name" : "AttributeError: 'TestDeleteArticle' object has no attribute 'pytest'",
-      "children" : [ {
-        "name" : "test_count_posts_after_delete_post[chrome]",
-        "uid" : "e9381e55aa73988e",
-        "parentUid" : "8d33de02e7173f80f3797ec97d54e662",
-        "status" : "broken",
-        "time" : {
-          "start" : 1629147327013,
-          "stop" : 1629147330370,
-          "duration" : 3357
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'chrome'" ]
-      } ],
-      "uid" : "8d33de02e7173f80f3797ec97d54e662"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
