@@ -46,7 +46,7 @@ class TestDeleteArticle(PyFix):
 
     """this used to navigate to User page and count posts on the next page of the list"""
     """before delete an article"""
-    def test_count_before_delete(self):
+    def test_count_posts_before_delete_post(self):
         try:
             self.MainPage = MainPage(self.driver)
             self.UserPage = UserPage(self.driver)
@@ -85,7 +85,7 @@ class TestDeleteArticle(PyFix):
 
     """this used to navigate to User page and count posts on the next page of the list"""
     """after delete an article"""
-    def test_edit_an_existing_article(self):
+    def test_count_posts_after_delete_post(self):
         try:
             self.MainPage = MainPage(self.driver)
             assert self.MainPage.is_username_displayed() == TestData.reg_test_valid[0]
