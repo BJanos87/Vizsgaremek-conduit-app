@@ -3,33 +3,16 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "selenium.common.exceptions.TimeoutException: Message:",
-      "children" : [ {
-        "name" : "test_sign_in_new_user[chrome]",
-        "uid" : "1fc4a0fcffaebd28",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1629146847572,
-          "stop" : 1629146854516,
-          "duration" : 6944
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'chrome'" ]
-      } ],
-      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
-    }, {
       "name" : "AttributeError: 'TestEditArticle' object has no attribute 'pytest'",
       "children" : [ {
         "name" : "test_check_edited_article[chrome]",
-        "uid" : "7203dc3b231eff80",
+        "uid" : "c52f836b61954f7d",
         "parentUid" : "6838f651f7de03a84330b06d60991e5d",
         "status" : "broken",
         "time" : {
-          "start" : 1629146920923,
-          "stop" : 1629146920959,
-          "duration" : 36
+          "start" : 1629147303676,
+          "stop" : 1629147303717,
+          "duration" : 41
         },
         "flaky" : false,
         "newFailed" : false,
@@ -40,13 +23,13 @@
       "name" : "AttributeError: 'TestDeleteArticle' object has no attribute 'pytest'",
       "children" : [ {
         "name" : "test_count_posts_after_delete_post[chrome]",
-        "uid" : "d7829f03a971458",
+        "uid" : "e9381e55aa73988e",
         "parentUid" : "8d33de02e7173f80f3797ec97d54e662",
         "status" : "broken",
         "time" : {
-          "start" : 1629146943977,
-          "stop" : 1629146947283,
-          "duration" : 3306
+          "start" : 1629147327013,
+          "stop" : 1629147330370,
+          "duration" : 3357
         },
         "flaky" : false,
         "newFailed" : false,
