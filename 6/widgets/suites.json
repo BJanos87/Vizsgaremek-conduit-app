@@ -1,26 +1,37 @@
 {
   "total" : 9,
   "items" : [ {
-    "uid" : "76446e1574324aec0560e687014b409e",
-    "name" : "test_src.Tests.test05_edit_article_from_txt_file",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 3,
-      "skipped" : 0,
-      "passed" : 5,
-      "unknown" : 0,
-      "total" : 8
-    }
-  }, {
     "uid" : "b9e436bd21aab298bcdfb79be8e63798",
     "name" : "test_src.Tests.test01_registration",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 13,
+      "passed" : 12,
       "unknown" : 0,
       "total" : 13
+    }
+  }, {
+    "uid" : "76446e1574324aec0560e687014b409e",
+    "name" : "test_src.Tests.test05_edit_article_from_txt_file",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "97f840ad021093c352af4b7bca8d1b9f",
+    "name" : "test_src.Tests.test06_delete_article",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 7
     }
   }, {
     "uid" : "5800f577f390409e6089abca22e819cb",
@@ -36,17 +47,6 @@
   }, {
     "uid" : "33cf6382ff73cc63e44c0a7607dad4b2",
     "name" : "test_src.Tests.test04_new_article",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 7,
-      "unknown" : 0,
-      "total" : 7
-    }
-  }, {
-    "uid" : "97f840ad021093c352af4b7bca8d1b9f",
-    "name" : "test_src.Tests.test06_delete_article",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

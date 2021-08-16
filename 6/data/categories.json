@@ -3,16 +3,33 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_sign_in_new_user[chrome]",
+        "uid" : "1fc4a0fcffaebd28",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629146847572,
+          "stop" : 1629146854516,
+          "duration" : 6944
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    }, {
       "name" : "AttributeError: 'TestEditArticle' object has no attribute 'pytest'",
       "children" : [ {
-        "name" : "test_open_to_edit_an_existing_article[chrome]",
-        "uid" : "5a896d06615572ca",
+        "name" : "test_check_edited_article[chrome]",
+        "uid" : "7203dc3b231eff80",
         "parentUid" : "6838f651f7de03a84330b06d60991e5d",
         "status" : "broken",
         "time" : {
-          "start" : 1629146550269,
-          "stop" : 1629146550308,
-          "duration" : 39
+          "start" : 1629146920923,
+          "stop" : 1629146920959,
+          "duration" : 36
         },
         "flaky" : false,
         "newFailed" : false,
@@ -20,35 +37,22 @@
       } ],
       "uid" : "6838f651f7de03a84330b06d60991e5d"
     }, {
-      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "name" : "AttributeError: 'TestDeleteArticle' object has no attribute 'pytest'",
       "children" : [ {
-        "name" : "test_edit_an_existing_article[chrome]",
-        "uid" : "53a3c0e3a42c3fd0",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "name" : "test_count_posts_after_delete_post[chrome]",
+        "uid" : "d7829f03a971458",
+        "parentUid" : "8d33de02e7173f80f3797ec97d54e662",
         "status" : "broken",
         "time" : {
-          "start" : 1629146550351,
-          "stop" : 1629146555903,
-          "duration" : 5552
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'chrome'" ]
-      }, {
-        "name" : "test_check_edited_article[chrome]",
-        "uid" : "8801d0cfcae24f2f",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1629146555918,
-          "stop" : 1629146561473,
-          "duration" : 5555
+          "start" : 1629146943977,
+          "stop" : 1629146947283,
+          "duration" : 3306
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'chrome'" ]
       } ],
-      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+      "uid" : "8d33de02e7173f80f3797ec97d54e662"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
