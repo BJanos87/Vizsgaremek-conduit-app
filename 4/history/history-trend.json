@@ -4,9 +4,9 @@
   "reportName" : "Allure Report with history",
   "data" : {
     "failed" : 0,
-    "broken" : 1,
+    "broken" : 3,
     "skipped" : 0,
-    "passed" : 60,
+    "passed" : 58,
     "unknown" : 0,
     "total" : 61
   }

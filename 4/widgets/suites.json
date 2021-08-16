@@ -1,6 +1,17 @@
 {
   "total" : 9,
   "items" : [ {
+    "uid" : "97f840ad021093c352af4b7bca8d1b9f",
+    "name" : "test_src.Tests.test06_delete_article",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
     "uid" : "7cd705a85c76a8658d5635c7904b8489",
     "name" : "test_src.Tests.test07_scroll_list",
     "statistic" : {
@@ -47,17 +58,6 @@
   }, {
     "uid" : "33cf6382ff73cc63e44c0a7607dad4b2",
     "name" : "test_src.Tests.test04_new_article",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 7,
-      "unknown" : 0,
-      "total" : 7
-    }
-  }, {
-    "uid" : "97f840ad021093c352af4b7bca8d1b9f",
-    "name" : "test_src.Tests.test06_delete_article",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

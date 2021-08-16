@@ -3,16 +3,50 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
+      "name" : "AttributeError: 'TestDeleteArticle' object has no attribute 'pytest'",
+      "children" : [ {
+        "name" : "test_count_before_delete[chrome]",
+        "uid" : "a0f708a466f2b75",
+        "parentUid" : "8d33de02e7173f80f3797ec97d54e662",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629090130936,
+          "stop" : 1629090134279,
+          "duration" : 3343
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      } ],
+      "uid" : "8d33de02e7173f80f3797ec97d54e662"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_edit_an_existing_article[chrome]",
+        "uid" : "cac42625d1be089c",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629090138469,
+          "stop" : 1629090144058,
+          "duration" : 5589
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    }, {
       "name" : "AttributeError: 'TestScrollList' object has no attribute 'pytest'",
       "children" : [ {
         "name" : "test_check_scroll_in_the_list[chrome]",
-        "uid" : "f1033b608511641",
+        "uid" : "f6bfafcf893e2a0b",
         "parentUid" : "8fc4285bb83c4325477dc60c00c7b9de",
         "status" : "broken",
         "time" : {
-          "start" : 1629070597975,
-          "stop" : 1629070601385,
-          "duration" : 3410
+          "start" : 1629090150335,
+          "stop" : 1629090150484,
+          "duration" : 149
         },
         "flaky" : false,
         "newFailed" : false,
