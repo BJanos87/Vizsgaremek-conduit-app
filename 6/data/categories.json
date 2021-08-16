@@ -1,0 +1,56 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'TestEditArticle' object has no attribute 'pytest'",
+      "children" : [ {
+        "name" : "test_open_to_edit_an_existing_article[chrome]",
+        "uid" : "5a896d06615572ca",
+        "parentUid" : "6838f651f7de03a84330b06d60991e5d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629146550269,
+          "stop" : 1629146550308,
+          "duration" : 39
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      } ],
+      "uid" : "6838f651f7de03a84330b06d60991e5d"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_edit_an_existing_article[chrome]",
+        "uid" : "53a3c0e3a42c3fd0",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629146550351,
+          "stop" : 1629146555903,
+          "duration" : 5552
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_check_edited_article[chrome]",
+        "uid" : "8801d0cfcae24f2f",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629146555918,
+          "stop" : 1629146561473,
+          "duration" : 5555
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
