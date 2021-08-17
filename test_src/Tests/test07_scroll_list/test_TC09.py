@@ -8,7 +8,7 @@ import time
 
 class TestScrollList(PyFix):
 
-    """this used check the title of the loaded url, and check the Sign In button"""
+    """this used to check the title of the loaded url, and check the Sign In button"""
     def test_homepage(self):
         try:
             self.HomePage = HomePage(self.driver)
@@ -48,7 +48,7 @@ class TestScrollList(PyFix):
             self.MainPage = MainPage(self.driver)
             assert self.MainPage.is_username_displayed() == TestData.reg_test_valid[0]
             assert self.MainPage.count_post_fields() == 11
-            self.MainPage.scroll_to_end_of_the_page()
+            self.MainPage.scroll_to_bottom_of_the_main_page()
             assert self.MainPage.is_next_btn_displayed() is True
             assert self.MainPage.is_next_btn_selected() is False
             self.MainPage.click_next_btn_topic_list()

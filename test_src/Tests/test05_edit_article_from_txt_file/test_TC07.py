@@ -11,7 +11,7 @@ import time
 
 class TestEditArticle(PyFix):
 
-    """this used check the title of the loaded url, and check the Sign In button"""
+    """this used to check the title of the loaded url, and check the Sign In button"""
     def test_homepage(self):
         try:
             self.HomePage = HomePage(self.driver)
@@ -94,7 +94,7 @@ class TestEditArticle(PyFix):
             assert self.ArticlePage.is_edit_article_btn_displayed() is True
             self.ArticlePage.click_edit_article_btn()
             time.sleep(3)
-            self.EditArticlePage.fill_article_form_from_file()
+            self.EditArticlePage.fill_article_form_inputs_from_file()
             self.EditArticlePage.fill_article_form_textarea_from_file()
             assert self.EditArticlePage.is_publish_article_btn_displayed() is True
             self.EditArticlePage.click_publish_article_btn()

@@ -1,5 +1,6 @@
 from test_src.Pages.base_commands import BaseCommands
 from test_src.Data.test_data import MainPgWebElements
+from test_src.Data.test_data import TestData
 
 
 class MainPage(BaseCommands):
@@ -55,7 +56,7 @@ class MainPage(BaseCommands):
         return self.get_element_text(MainPgWebElements.conduit_title)
 
     """this used to scroll to the bottom of the page"""
-    def scroll_to_end_of_the_page(self):
+    def scroll_to_bottom_of_the_main_page(self):
         self.scroll_to_bottom_of_the_page(MainPgWebElements.main_page)
 
     """this used to check the next button on the topic list is displayed"""
@@ -76,8 +77,8 @@ class MainPage(BaseCommands):
 
     """this used to save the texts of the Article Title web elements to a txt file"""
     def save_article_title_list_into_text_file(self):
-        self.save_list_into_text_file(MainPgWebElements.post_fields)
+        self.save_list_into_txt_file(TestData.article_title_list_output_test_file, MainPgWebElements.post_fields)
 
-    """this used to compare web elements with text file"""
+    """this used to compare web elements with saved txt file"""
     def check_saved_article_title_list_from_text_file(self):
-        self.check_saved_list_from_text_file(MainPgWebElements.post_fields)
+        self.check_saved_list_from_txt_file(TestData.article_title_list_output_test_file, MainPgWebElements.post_fields)

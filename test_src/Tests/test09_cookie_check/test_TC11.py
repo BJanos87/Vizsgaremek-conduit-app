@@ -6,7 +6,7 @@ import time
 
 class TestCookie(PyFix):
 
-    """this used check the title of the loaded url, and check the Sign In button"""
+    """this used to check the title of the loaded url, and check the Sign In button"""
     """this used to check cookie status, after accept that"""
     def test_homepage_cookie(self):
         try:

@@ -8,7 +8,7 @@ import time
 
 class TestSaveData(PyFix):
 
-    """this used check the title of the loaded url, and check the Sign In button"""
+    """this used to check the title of the loaded url, and check the Sign In button"""
     def test_homepage(self):
         try:
             self.HomePage = HomePage(self.driver)

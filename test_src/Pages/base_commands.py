@@ -107,24 +107,40 @@ class BaseCommands:
         elements = WebDriverWait(self.driver, 5).until(EC.visibility_of_any_elements_located(by_locator))
         return (len(elements))
 
-    """this used to save Article Title list into a text file"""
-    def save_list_into_text_file(self, by_locator):
+    """this used to save a list into a text file"""
+    def save_list_into_txt_file(self, file, by_locator):
         elements = WebDriverWait(self.driver, 5).until(EC.visibility_of_any_elements_located(by_locator))
-        with open("test_src/Data/test_data_article_title_list_output.txt", "w", encoding='utf-8') as file:
-            file.write('')
+        with open(file, "w", encoding='utf-8') as f:
+            f.write('')
         for i in range(len(elements)):
-            with open("test_src/Data/test_data_article_title_list_output.txt", 'a', encoding='utf-8') as file:
-                file.write(elements[i].text)
-                file.write('\n')
+            with open(file, 'a', encoding='utf-8') as f:
+                f.write(elements[i].text)
+                f.write('\n')
 
-    """this used to compare web elements with saved text file"""
-    def check_saved_list_from_text_file(self, by_locator):
+    """this used to compare web elements with saved txt file"""
+    def check_saved_list_from_txt_file(self, file, by_locator):
         elements = WebDriverWait(self.driver, 5).until(EC.visibility_of_any_elements_located(by_locator))
         formatted_text_file = []
-        with open("test_src/Data/test_data_article_title_list_output.txt", 'r', encoding='utf-8') as file:
-            result = file.readlines()
+        with open(file, 'r', encoding='utf-8') as f:
+            result = f.readlines()
             for row in result:
                 row = row.replace("\n", '')
                 formatted_text_file.append(row)
         for i, element in enumerate(elements):
             assert element.text == formatted_text_file[i]
+
+    """this used to fill an input with test data from a txt file"""
+    def fill_input_from_txt(self, file, by_locator):
+        with open(file, 'r', encoding='utf-8') as f:
+            result = f.readline()
+        self.do_send_key(by_locator, result)
+
+    """this used to fill inputs with test data from a txt file"""
+    def fill_inputs_from_txt(self, file, by_locator):
+        formatted_inputs = []
+        with open(file, 'r', encoding='utf-8') as f:
+            result = f.readlines()
+            for row in result:
+                row = row.replace("\n", '')
+                formatted_inputs.append(row)
+        self.do_send_key_elements(by_locator, formatted_inputs)

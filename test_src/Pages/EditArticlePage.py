@@ -2,6 +2,7 @@ from test_src.Pages.base_commands import BaseCommands
 from test_src.Data.test_data import EditArticlePgWebElements
 from test_src.Data.test_data import TestData
 
+
 class EditArticlePage(BaseCommands):
 
     """constructor of the page class"""
@@ -51,23 +52,17 @@ class EditArticlePage(BaseCommands):
         self.do_send_key(EditArticlePgWebElements.input_textarea, TestData.input_article_form_textarea)
 
     """this used to fill Article form inputs with test data from a txt file"""
-    def fill_article_form_from_file(self):
-        formatted_article_input = []
-        with open("test_src/Data/test_data_article_inputs.txt", 'r', encoding='utf-8') as file:
-            result = file.readlines()
-            for row in result:
-                row = row.replace("\n", '')
-                formatted_article_input.append(row)
-        self.do_send_key_elements(EditArticlePgWebElements.input_fields, formatted_article_input)
+    def fill_article_form_inputs_from_file(self):
+        self.fill_inputs_from_txt(TestData.article_form_inputs_test_file, EditArticlePgWebElements.input_fields)
 
     """this used to fill Article textarea input with test data from a txt file"""
     def fill_article_form_textarea_from_file(self):
-        with open("test_src/Data/test_data_article_textarea_input.txt", 'r', encoding='utf-8') as file:
-            result = file.readline()
-        self.do_send_key(EditArticlePgWebElements.input_textarea, result)
+        self.fill_input_from_txt(TestData.article_form_textarea_test_file, EditArticlePgWebElements.input_textarea)
 
+    """this used to clear Article inputs"""
     def clear_article_input_elements(self):
         self.clear_input_elements(EditArticlePgWebElements.input_fields)
 
+    """this used to clear Article textarea input"""
     def clear_article_input_element(self):
         self.clear_input_element(EditArticlePgWebElements.input_textarea)

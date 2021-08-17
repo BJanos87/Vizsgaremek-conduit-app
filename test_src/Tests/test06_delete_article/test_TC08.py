@@ -51,7 +51,7 @@ class TestDeleteArticle(PyFix):
             self.MainPage = MainPage(self.driver)
             self.UserPage = UserPage(self.driver)
             assert self.MainPage.is_username_displayed() == TestData.reg_test_valid[0]
-            self.MainPage.scroll_to_end_of_the_page()
+            self.MainPage.scroll_to_bottom_of_the_main_page()
             assert self.MainPage.is_next_btn_displayed() is True
             assert self.MainPage.is_next_btn_selected() is False
             self.MainPage.click_next_btn_topic_list()
@@ -89,7 +89,7 @@ class TestDeleteArticle(PyFix):
         try:
             self.MainPage = MainPage(self.driver)
             assert self.MainPage.is_username_displayed() == TestData.reg_test_valid[0]
-            self.MainPage.scroll_to_end_of_the_page()
+            self.MainPage.scroll_to_bottom_of_the_main_page()
             assert self.MainPage.is_next_btn_displayed() is True
             assert self.MainPage.is_next_btn_selected() is False
             self.MainPage.click_next_btn_topic_list()

@@ -6,6 +6,10 @@ class TestData:
     HOME_PAGE_TITLE = "Conduit"
     MAIN_PAGE_TITLE = "conduit"
 
+    article_form_inputs_test_file = "test_src/Data/test_data_article_inputs.txt"
+    article_form_textarea_test_file = "test_src/Data/test_data_article_textarea_input.txt"
+    article_title_list_output_test_file = "test_src/Data/test_data_article_title_list_output.txt"
+
     reg_test_valid = ["test_user1", "test_user1@test.com", "Abcd1234"]
     reg_test_invalid_email = ["test_user3", "testuser_3#testcom", "Abcd1234"]
     reg_test_invalid_password = ["test_user3", "test_user3@test.com", "a1"]
@@ -21,9 +25,9 @@ class TestData:
     inputs_placeholder_value_reg = ["Username", "Email", "Password"]
     inputs_placeholder_value_login = ["Email", "Password"]
     inputs_placeholder_value_article = ["Article Title",
-                                    "What's this article about?",
-                                    "Write your article (in markdown)",
-                                    "Enter tags"]
+                                        "What's this article about?",
+                                        "Write your article (in markdown)",
+                                        "Enter tags"]
     inputs_placeholder_value_textarea_article = "Write your article (in markdown)"
 
     password_type_value = "password"
@@ -36,8 +40,8 @@ class TestData:
                             "Email already taken."]
 
     text_login_failed = "Invalid user credentials."
-
     assert_error_msg = "Az oldal nem az elvárt funkcionalitásnak megfelelően működik, hiba oka:"
+
 
 class HomePgWebElements:
     sign_up_btn = (By.XPATH, "//*[@id='app']/nav/div/ul/li[3]/a")
