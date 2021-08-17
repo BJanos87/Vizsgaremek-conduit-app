@@ -1,0 +1,98 @@
+{
+  "uid" : "a6125072023ac09d",
+  "name" : "test_count_posts_before_delete_post[chrome]",
+  "fullName" : "test_src.Tests.test06_delete_article.test_TC08.TestDeleteArticle#test_count_posts_before_delete_post",
+  "historyId" : "bb704d6a5814f86f4aedb492c914d08f",
+  "time" : {
+    "start" : 1629232159341,
+    "stop" : 1629232162685,
+    "duration" : 3344
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'TestDeleteArticle' object has no attribute 'pytest'",
+  "statusTrace" : "self = <test_src.Tests.test06_delete_article.test_TC08.TestDeleteArticle object at 0x7f88ec2299d0>\n\n    def test_count_posts_before_delete_post(self):\n        try:\n            self.MainPage = MainPage(self.driver)\n            self.UserPage = UserPage(self.driver)\n            assert self.MainPage.is_username_displayed() == TestData.reg_test_valid[0]\n            self.MainPage.scroll_to_bottom_of_the_main_page()\n            assert self.MainPage.is_next_btn_displayed() is True\n            assert self.MainPage.is_next_btn_selected() is False\n            self.MainPage.click_next_btn_topic_list()\n            time.sleep(3)\n            # assert self.MainPage.is_next_btn_selected() is True\n>           assert self.MainPage.count_post_fields() == 2\nE           AssertionError: assert 12 == 2\nE            +  where 12 = <bound method MainPage.count_post_fields of <test_src.Pages.MainPage.MainPage object at 0x7f88ec19df70>>()\nE            +    where <bound method MainPage.count_post_fields of <test_src.Pages.MainPage.MainPage object at 0x7f88ec19df70>> = <test_src.Pages.MainPage.MainPage object at 0x7f88ec19df70>.count_post_fields\nE            +      where <test_src.Pages.MainPage.MainPage object at 0x7f88ec19df70> = <test_src.Tests.test06_delete_article.test_TC08.TestDeleteArticle object at 0x7f88ec2299d0>.MainPage\n\ntest_src/Tests/test06_delete_article/test_TC08.py:60: AssertionError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <test_src.Tests.test06_delete_article.test_TC08.TestDeleteArticle object at 0x7f88ec2299d0>\n\n    def test_count_posts_before_delete_post(self):\n        try:\n            self.MainPage = MainPage(self.driver)\n            self.UserPage = UserPage(self.driver)\n            assert self.MainPage.is_username_displayed() == TestData.reg_test_valid[0]\n            self.MainPage.scroll_to_bottom_of_the_main_page()\n            assert self.MainPage.is_next_btn_displayed() is True\n            assert self.MainPage.is_next_btn_selected() is False\n            self.MainPage.click_next_btn_topic_list()\n            time.sleep(3)\n            # assert self.MainPage.is_next_btn_selected() is True\n            assert self.MainPage.count_post_fields() == 2\n            self.MainPage.click_user_btn()\n            time.sleep(3)\n            assert self.UserPage.is_home_btn_displayed() is True\n            self.UserPage.click_home_btn()\n            time.sleep(3)\n            self.MainPage.click_user_btn()\n            time.sleep(3)\n        except AssertionError as err:\n>           self.pytest.fail(print(TestData.assert_error_msg, err))\nE           AttributeError: 'TestDeleteArticle' object has no attribute 'pytest'\n\ntest_src/Tests/test06_delete_article/test_TC08.py:69: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init_driver",
+    "time" : {
+      "start" : 1629232153348,
+      "stop" : 1629232154569,
+      "duration" : 1221
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "init_driver::0",
+    "time" : {
+      "start" : 1629232172579,
+      "stop" : 1629232172685,
+      "duration" : 106
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('init_driver')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_src.Tests.test06_delete_article"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC08"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDeleteArticle"
+  }, {
+    "name" : "host",
+    "value" : "fv-az33-581"
+  }, {
+    "name" : "thread",
+    "value" : "3733-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_src.Tests.test06_delete_article.test_TC08"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "init_driver",
+    "value" : "'chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures('init_driver')" ]
+  },
+  "source" : "a6125072023ac09d.json",
+  "parameterValues" : [ "'chrome'" ]
+}

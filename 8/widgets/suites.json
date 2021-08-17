@@ -1,0 +1,103 @@
+{
+  "total" : 9,
+  "items" : [ {
+    "uid" : "97f840ad021093c352af4b7bca8d1b9f",
+    "name" : "test_src.Tests.test06_delete_article",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "76446e1574324aec0560e687014b409e",
+    "name" : "test_src.Tests.test05_edit_article_from_txt_file",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "7cd705a85c76a8658d5635c7904b8489",
+    "name" : "test_src.Tests.test07_scroll_list",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "b9e436bd21aab298bcdfb79be8e63798",
+    "name" : "test_src.Tests.test01_registration",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 13
+    }
+  }, {
+    "uid" : "5800f577f390409e6089abca22e819cb",
+    "name" : "test_src.Tests.test02_login",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "33cf6382ff73cc63e44c0a7607dad4b2",
+    "name" : "test_src.Tests.test04_new_article",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "fabf97ff218067dd909dc966c993ba27",
+    "name" : "test_src.Tests.test03_home_screen",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "d97ce1380f6019c6d111c3c635eccf60",
+    "name" : "test_src.Tests.test08_save_data_to_txt_file",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "01d91c33733830953480f89862a9e2a8",
+    "name" : "test_src.Tests.test09_cookie_check",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

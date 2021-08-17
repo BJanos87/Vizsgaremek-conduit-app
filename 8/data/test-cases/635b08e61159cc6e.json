@@ -1,0 +1,114 @@
+{
+  "uid" : "635b08e61159cc6e",
+  "name" : "test_homepage[chrome]",
+  "fullName" : "test_src.Tests.test02_login.test_TC03.TestLogin01#test_homepage",
+  "historyId" : "1486e1ea0a2127a9ae697e6ff93c912a",
+  "time" : {
+    "start" : 1629232094786,
+    "stop" : 1629232096207,
+    "duration" : 1421
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init_driver",
+    "time" : {
+      "start" : 1629232093564,
+      "stop" : 1629232094785,
+      "duration" : 1221
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8da3663b7cb78ac2",
+      "name" : "log",
+      "source" : "8da3663b7cb78ac2.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "4ce882f56f64a872",
+      "name" : "stderr",
+      "source" : "4ce882f56f64a872.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "init_driver::0",
+    "time" : {
+      "start" : 1629232098802,
+      "stop" : 1629232098859,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('init_driver')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_src.Tests.test02_login"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC03"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin01"
+  }, {
+    "name" : "host",
+    "value" : "fv-az33-581"
+  }, {
+    "name" : "thread",
+    "value" : "3733-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_src.Tests.test02_login.test_TC03"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "init_driver",
+    "value" : "'chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('init_driver')" ]
+  },
+  "source" : "635b08e61159cc6e.json",
+  "parameterValues" : [ "'chrome'" ]
+}

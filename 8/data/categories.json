@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'TestEditArticle' object has no attribute 'pytest'",
+      "children" : [ {
+        "name" : "test_check_edited_article[chrome]",
+        "uid" : "6738ac7f58e82343",
+        "parentUid" : "6838f651f7de03a84330b06d60991e5d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629232153031,
+          "stop" : 1629232153068,
+          "duration" : 37
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      } ],
+      "uid" : "6838f651f7de03a84330b06d60991e5d"
+    }, {
+      "name" : "AttributeError: 'TestDeleteArticle' object has no attribute 'pytest'",
+      "children" : [ {
+        "name" : "test_count_posts_before_delete_post[chrome]",
+        "uid" : "a6125072023ac09d",
+        "parentUid" : "8d33de02e7173f80f3797ec97d54e662",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629232159341,
+          "stop" : 1629232162685,
+          "duration" : 3344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      } ],
+      "uid" : "8d33de02e7173f80f3797ec97d54e662"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_count_posts_after_delete_post[chrome]",
+        "uid" : "755428811929329",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629232166833,
+          "stop" : 1629232172416,
+          "duration" : 5583
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    }, {
+      "name" : "AttributeError: 'TestScrollList' object has no attribute 'pytest'",
+      "children" : [ {
+        "name" : "test_check_scroll_in_the_list[chrome]",
+        "uid" : "dcb385a83d98a468",
+        "parentUid" : "8fc4285bb83c4325477dc60c00c7b9de",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629232178627,
+          "stop" : 1629232178774,
+          "duration" : 147
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      } ],
+      "uid" : "8fc4285bb83c4325477dc60c00c7b9de"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

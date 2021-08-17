@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://BJanos87.github.io/Vizsgaremek-conduit-app",
+  "buildOrder" : 8,
+  "buildName" : "GitHub Actions Run #1140730940",
+  "buildUrl" : "https://github.com/BJanos87/Vizsgaremek-conduit-app/actions/runs/1140730940",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://BJanos87.github.io/Vizsgaremek-conduit-app/8/"
+} ]
