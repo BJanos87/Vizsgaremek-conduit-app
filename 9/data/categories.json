@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'TestEditArticle' object has no attribute 'pytest'",
+      "children" : [ {
+        "name" : "test_check_edited_article[chrome]",
+        "uid" : "da3b0d55791f7bb8",
+        "parentUid" : "6838f651f7de03a84330b06d60991e5d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629233657283,
+          "stop" : 1629233657320,
+          "duration" : 37
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      } ],
+      "uid" : "6838f651f7de03a84330b06d60991e5d"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
